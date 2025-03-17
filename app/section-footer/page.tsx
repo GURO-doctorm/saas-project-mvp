@@ -259,7 +259,7 @@ export default function SectionFooter() {
 									<div className="col-lg-4 pe-10">
 										<Link className="navbar-brand d-flex main-logo align-items-center" href="/">
 											<img src="/assets/imgs/template/favicon.svg" alt="infinia" />
-											<span>Infinia</span>
+											<span>Elitpage</span>
 										</Link>
 										<p className="text-900 fw-medium mt-3 mb-6 opacity-50">You may also realize cost savings from your energy efficient choices in your custom home. Federal tax credits for some green materials can allow you to deduct as much.</p>
 										<div className="d-flex social-icons">
