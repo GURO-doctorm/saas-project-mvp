@@ -53,24 +53,24 @@ export default function Hero1() {
 						<div className="col-lg-6 position-relative justify-content-center">
 							<img className="hero-img" src="/assets/imgs/hero-1/background.png" alt="infinia" />
 							<div className="shape-1 position-absolute">
-								<img className="rightToLeft" src="/assets/imgs/hero-1/shape-1.png" alt="infinia" data-aos="zoom-in" data-aos-delay={500} />
+								<img className="rightToLeft" src="/assets/imgs/hero-1/phone.png" alt="infinia" data-aos="zoom-in" data-aos-delay={500} />
 							</div>
 							<div className="shape-2 position-absolute d-none d-md-block">
-								<img src="/assets/imgs/hero-1/shape-2.png" alt="infinia" data-aos="zoom-in" data-aos-delay={200} />
+								<img src="/assets/imgs/hero-1/jeb.png" alt="infinia" data-aos="zoom-in" data-aos-delay={200} />
 							</div>
 							<div className="shape-3 position-absolute d-none d-md-block">
 								<img src="/assets/imgs/hero-1/shape-3.png" alt="infinia" data-aos="zoom-in" data-aos-delay={300} />
 							</div>
 							<div className="alltuchtopdown card-hero backdrop-filter rounded-3 text-center d-inline-block p-3 position-absolute">
-								<img className="rounded-3" src="/assets/imgs/hero-1/shape-4.png" alt="infinia" />
-								<h6 className="mt-3">Book A Call</h6>
+								<img className="rounded-3" src="/assets/imgs/hero-1/chart.png" alt="infinia" />
+								<h6 className="mt-3">Convert More</h6>
 								<p className="fs-7 text-700">
-									Customer activity can be easily <br />
-									tracked with one click
+								Turn Clicks into Customers with <br />
+								high-converting AI pages.
 								</p>
 								<Link href="#" className="shadow-sm d-flex align-items-center bg-white d-inline-flex rounded-pill px-2 py-1 mb-3">
 									<span className="bg-primary fs-9 fw-bold rounded-pill px-2 py-1 text-white">Get</span>
-									<span className="fs-7 fw-medium text-primary mx-2">Free Update</span>
+									<span className="fs-7 fw-medium text-primary mx-2">Free Trial Now</span>
 									<svg xmlns="http://www.w3.org/2000/svg" width={18} height={19} viewBox="0 0 18 19" fill="none">
 										<path d="M10.3125 5.5625L14.4375 9.5L10.3125 13.4375" stroke="#6D4DF2" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
 										<path d="M14.25 9.5H3.5625" stroke="#6D4DF2" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
