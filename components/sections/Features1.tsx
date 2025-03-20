@@ -16,20 +16,20 @@ export default function Features1() {
 						<div className="col-lg-4">
 							<div className="d-flex align-items-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-3 py-1">
 								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Our Features</span>
+								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Save Time</span>
 							</div>
-							<h2 className="fw-medium mt-4 lh-sm">Together, we are creating a
-								<span className="fw-black">Bright Future.</span>
-								<span className="text-primary fst-italic" data-aos="fade-zoom-in" data-aos-delay={400}>Join us.</span>
+							<h2 className="fw-medium mt-4 lh-sm">Build Landing Pages
+								<span className="fw-black">10x Faster</span>
+								<span className="text-primary fst-italic" data-aos="fade-zoom-in" data-aos-delay={400}>with AI.</span>
 							</h2>
 						</div>
 						<div className="col-lg-8">
 							<div className="d-flex flex-md-row flex-column align-items-center position-relative ps-lg-8 pt-lg-0 pt-10">
 								<div className="pe-md-3 pb-3 pb-md-0 position-relative z-1" data-aos="fade-zoom-in" data-aos-delay={100}>
-									<img className="rounded-3 border border-3 border-white" src="/assets/imgs/features-1/img-1.png" alt="infinia" />
+									<img className="rounded-3 border border-3 border-white" src="/assets/imgs/features-1/MO1.png" alt="infinia" />
 								</div>
 								<div className="pe-md-3 pb-3 pb-md-0 position-relative z-1" data-aos="fade-zoom-in" data-aos-delay={200}>
-									<img className="rounded-3 border border-3 border-white" src="/assets/imgs/features-1/img-2.png" alt="infinia" />
+									<img className="rounded-3 border border-3 border-white" src="/assets/imgs/features-1/M2.png" alt="infinia" />
 								</div>
 								<div className="pe-md-3 pb-3 pb-md-0 position-relative z-1" data-aos="fade-zoom-in" data-aos-delay={300}>
 									<img className="rounded-3 border border-3 border-white" src="/assets/imgs/features-1/img-3.png" alt="infinia" />
@@ -42,7 +42,7 @@ export default function Features1() {
 										<span className="fw-bold fs-7 text-900">
 											How It Work ?
 										</span>
-									</Link>
+									 </Link> 
 									<ModalVideo channel='youtube' isOpen={isOpen} videoId="gXFATcwrO-U" onClose={() => setOpen(false)} />
 								</div>
 								<img className="position-absolute top-50 start-0 translate-middle-y z-0" src="/assets/imgs/features-1/bg-ellipse.png" alt="infinia" />

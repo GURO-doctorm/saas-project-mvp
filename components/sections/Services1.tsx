@@ -11,7 +11,7 @@ export default function Services1() {
 							<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
 							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">What we offers</span>
 						</div>
-						<h3 className="ds-3 my-3" data-aos="fade-zoom-in" data-aos-delay={300}>Explore Our Services</h3>
+						<h3 className="ds-3 my-3" data-aos="fade-zoom-in" data-aos-delay={300}>Explore Our Featurs</h3>
 						<p data-aos="fade-zoom-in" data-aos-delay={100}>By doing a financial analysis of these statements, you can see <br /> whether you have enough working capital.</p>
 					</div>
 					<div className="row mt-6 position-relative">
@@ -39,6 +39,7 @@ export default function Services1() {
 									</Link>
 								</div>
 							</div>
+							{/*
 							<div className="p-2 mt-5 rounded-4 shadow-1 bg-white position-relative z-1 hover-up" data-aos="fade-zoom-in" data-aos-delay={200}>
 								<div className="card-service bg-white p-6 border rounded-3">
 									<img src="/assets/imgs/service-1/icon-2.svg" alt="infinia" />
@@ -61,7 +62,8 @@ export default function Services1() {
 										<span className="fw-bold fs-7 text-900">Learm More</span>
 									</Link>
 								</div>
-							</div>
+							</div> 
+							*/}
 						</div>
 						<div className="col-lg-4">
 							<div className="p-2 mt-5 rounded-4 shadow-1 bg-white position-relative z-1 hover-up" data-aos="fade-zoom-in" data-aos-delay={300}>
@@ -87,6 +89,7 @@ export default function Services1() {
 									</Link>
 								</div>
 							</div>
+							{/*
 							<div className="p-2 mt-5 rounded-4 shadow-1 bg-white position-relative z-1 hover-up" data-aos="fade-zoom-in" data-aos-delay={100}>
 								<div className="card-service bg-white p-6 border rounded-3">
 									<img src="/assets/imgs/service-1/icon-4.svg" alt="infinia" />
@@ -110,6 +113,7 @@ export default function Services1() {
 									</Link>
 								</div>
 							</div>
+							*/}
 						</div>
 						<div className="col-lg-4">
 							<div className="p-2 mt-lg-8 mt-5 rounded-4 shadow-1 bg-white position-relative z-1 hover-up hover-up" data-aos="fade-zoom-in" data-aos-delay={200}>
@@ -135,6 +139,7 @@ export default function Services1() {
 									</Link>
 								</div>
 							</div>
+							{/*
 							<div className="p-2 mt-5 rounded-4 shadow-1 bg-white position-relative z-1 hover-up" data-aos="fade-zoom-in" data-aos-delay={300}>
 								<div className="card-service bg-white p-6 border rounded-3">
 									<img src="/assets/imgs/service-1/icon-6.svg" alt="infinia" />
@@ -158,6 +163,7 @@ export default function Services1() {
 									</Link>
 								</div>
 							</div>
+							*/}
 						</div>
 						<div className="position-absolute top-50 start-50 translate-middle z-0">
 							<img src="/assets/imgs/service-1/img-bg.png" alt="infinia" />

@@ -11,7 +11,7 @@ export default function Features2() {
 						<div className="row align-items-center">
 							<div className="col-lg-4 col-md-6 mb-lg-0 mb-8 position-relative z-1">
 								<img src="/assets/imgs/features-2/icon-1.svg" alt="infinia" className="hover-up" />
-								<h2 className="text-white mt-3 mb-4 fw-medium hover-up">Scalable Business for <span className="fw-bold">Startups</span>.</h2>
+								<h2 className="text-white mt-3 mb-4 fw-medium hover-up">Scalable Business for <span className="fw-bold">Marketers</span>.</h2>
 								<ul className="list-unstyled phase-items">
 									<li>
 										<Link href="#" className="phase-item d-flex align-items-center mb-3">
