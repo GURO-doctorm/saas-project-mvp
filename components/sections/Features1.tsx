@@ -52,7 +52,7 @@ export default function Features1() {
 						</div>
 					</div>
 				</div>
-				<div className="container">
+				 <div className="container">
 					<div className="row mt-10">
 						{/* prettier-ignore */}
 						<div className="col-lg-3 col-md-6" data-aos="fade-zoom-in" data-aos-delay={50}>
@@ -100,7 +100,7 @@ export default function Features1() {
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> 
 			</section>
 
 		</>
