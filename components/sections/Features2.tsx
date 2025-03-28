@@ -62,7 +62,7 @@ export default function Features1() {
 										<img src="/assets/imgs/features-1/icon-1.svg" alt="infinia" />
 									</div>
 								</div>
-								<h6>Work organization</h6>
+								<h6> organization</h6>
 								<p>A business consultant provides expert advice and guidance to businesses on various aspects.</p>
 							</div>
 						</div>
@@ -98,7 +98,7 @@ export default function Features1() {
 								<h6>Business Intelligence </h6>
 								<p>Through their deep understanding of industry trends and best practices, consultants empower organizations</p>
 							</div>
-						</div>
+						</div> 
 					</div>
 				</div>
 			</section>

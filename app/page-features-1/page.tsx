@@ -75,7 +75,7 @@ export default function PageFeatures1() {
 											<img src="/assets/imgs/features-1/icon-1.svg" alt="infinia" />
 										</div>
 									</div>
-									<h6>Work organization</h6>
+									<h6>No organization</h6>
 									<p>A business consultant provides expert advice and guidance to businesses on various aspects.</p>
 								</div>
 							</div>
