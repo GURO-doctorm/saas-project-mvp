@@ -22,11 +22,11 @@ export default function PageRegister() {
 								</Link>
 								<Link href="#" className="btn rounded-3 bg-white border w-100 mb-3">
 									<img className="filter-invert" src="/assets/imgs/other/icon-apid.svg" alt="infinia" />
-									<span className="fs-7 text-900 fw-bold ms-1">Sign up with Google</span>
+									<span className="fs-7 text-900 fw-bold ms-1">Sign up with Apple</span>
 								</Link>
 								<Link href="#" className="btn rounded-3 bg-white border w-100 mb-3">
 									<img className="filter-invert" src="/assets/imgs/other/icon-twt.svg" alt="infinia" />
-									<span className="fs-7 text-900 fw-bold ms-1">Sign up with Google</span>
+									<span className="fs-7 text-900 fw-bold ms-1">Sign up with X</span>
 								</Link>
 								<div className="border-top mt-3 mb-2 position-relative">
 									<p className="text-500 position-absolute top-50 start-50 translate-middle bg-white px-2">or sign up by email</p>
@@ -95,7 +95,7 @@ export default function PageRegister() {
 						</div>
 					</div>
 					<div className="position-lg-absolute start-0 bottom-0 top-0">
-						<img className="h-100 w-100 object-fit-cover" src="/assets/imgs/other/img-7.png" alt="infinia" />
+					<img className="h-100 w-100 object-fit-cover" src="/assets/imgs/other/xpor.png" alt="infinia" />
 						<div className="position-absolute bottom-0 end-0 m-8 backdrop-filter rounded-4 px-7 py-4 text-center z-1">
 							<p className="pt-2 text-white fs-5">
 								Loved by over 4k <br />

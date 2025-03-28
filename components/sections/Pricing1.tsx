@@ -1,226 +1,156 @@
-"use client"
+'use client'
 import Link from "next/link"
 import { useState } from "react"
+import CountUp from 'react-countup'
 
-export default function Pricing1() {
+export default function Cta7() {
 
-	// Price Plan
-	const [activePlan, setActivePlan] = useState('monthly')
+	// Tab
+	const [isTab, setIsTab] = useState(1)
 
-	const handlePlanChange = (planType: any) => {
-		setActivePlan(planType)
+	const handleTab = (i: any) => {
+		setIsTab(i)
 	}
-
-	const getPrices = () => {
-		if (activePlan === 'monthly') {
-			return {
-				standardPrice: '49',
-				standardType: '/ month',
-				businessPrice: '69',
-				businessType: '/ month',
-				enterprisePrice: '99',
-				enterpriseType: '/ month',
-			}
-		} else {
-			return {
-				standardPrice: '441',
-				standardType: '/ year',
-				businessPrice: '621',
-				businessType: '/ year',
-				enterprisePrice: '891',
-				enterpriseType: '/ year',
-			}
-		}
-	}
-
-	const prices = getPrices()
 
 	return (
 		<>
 
-			<section className="section-pricing-1 position-relative pb-120 @@classList overflow-hidden">
-				<div className="container">
-					<div className="row pb-9 position-relative z-1">
-						<div className="col-lg-auto me-lg-auto">
-							<div className="text-start mb-lg-0 mb-5">
-								<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
-									<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-									<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">our plans</span>
+			<section>
+				<div className="container-fluid position-relative section-padding">
+					<div className="container">
+					<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
+                                    <img src="/assets/imgs/features-1/dots.png" alt="infinia" />
+                                    <span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">our plans</span>
+                                </div>
+						<div className="row">
+							<div className="col-lg-6">
+								<h5 className="fw-regular ds-5">High <span className="fw-bold">Performance <br /> Services For </span> All Industries.</h5>
+							</div>
+							<div className="row align-items-center">
+								<div className="col-lg-6 text-lg-start text-center">
+									<div className="position-relative z-1 d-inline-block mb-lg-0 mb-8">
+										<img className="rounded-4 position-relative z-1" src="/assets/imgs/cta-7/img-1.png" alt="infinia" />
+										<div className="alltuchtopdown position-absolute top-50 start-50 ms-md-10 mt-md-10 backdrop-filter bg-primary rounded-4 px-6 py-4 text-center z-1">
+											<span className="h2 count fw-black mb-0 lh-1 text-white text-nowrap">+<span className="odometer" /><CountUp end={23} enableScrollSpy={true} />k</span>
+											<p className="text-white text-nowrap border-bottom border-opacity-50 border-white pb-3 mb-3">Projects Completed</p>
+											<span className="h2 count fw-black my-0 lh-1 text-white text-nowrap">+<span className="odometer" /><CountUp end={98} enableScrollSpy={true} />k</span>
+											<p className="text-white text-nowrap mb-0">Happy Clients</p>
+										</div>
+									</div>
 								</div>
-								<h3 className="ds-3 my-3" data-aos="fade-zoom-in" data-aos-delay={200}>Pricing Plans</h3>
-								<p className="fs-5 mb-0" data-aos="fade-zoom-in" data-aos-delay={300}>⚡We’ve got a pricing plan that’s perfect for you</p>
-							</div>
-						</div>
-						<div className="col-lg-auto align-self-end">
-							<div className="d-flex justify-content-lg-end">
-								<ul className="list-unstyled d-flex align-items-center change-price-plan bg-white rounded-pill py-1 shadow-2">
-									<li><Link href="#" scroll={false} className={`px-6 py-2 text-900 bg-transparent monthly rounded-pill text-white fs-5 fw-bold z-1 ${activePlan === 'monthly' ? 'active' : ''}`} onClick={() => handlePlanChange('monthly')} data-type="monthly">Monthly</Link></li>
-									<li><Link href="#" scroll={false} className={`yearly px-md-6 px-2 py-2 rounded-pill bg-transparent text-900 fs-5 fw-bold ${activePlan === 'yearly' ? 'active' : ''}`} onClick={() => handlePlanChange('yearly')} data-type="yearly">Yearly (Save 25%)</Link></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div className="row backdrop-filter-lg rounded-4 position-relative z-1">
-						<div className="col-lg-3 col-sm-6 px-lg-0 mb-lg-0 mb-4">
-							<div className="backdrop-filter-md h-100 p-6 position-relative border rounded-4 z-1 rounded-end-lg-0">
-								<h6>Trial Plan</h6>
-								<p className="fs-7">Protect for testing</p>
-								<h3 className="text-primary mt-3 mb-0">Free</h3>
-								<p className="fs-8">30 days trial</p>
-								<button className="btn btn-outline-secondary hover-up w-100 d-flex justify-content-between my-5">
-									Get Started
-									<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
-										<path className="fill-dark" d="M17.4177 5.41797L16.3487 6.48705L21.1059 11.2443H0V12.7562H21.1059L16.3487 17.5134L17.4177 18.5825L24 12.0002L17.4177 5.41797Z" fill="#111827" />
-									</svg>
-								</button>
-								<ul className="list-unstyled mb-0">
-									<li className="d-flex align-items-center mb-4">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">Single Team Member</h6>
-									</li>
-									<li className="d-flex align-items-center mb-4">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">Over 1200 UI Blocks</h6>
-									</li>
-									<li className="d-flex align-items-center mb-4">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">10 GB of Cloud Storage</h6>
-									</li>
-									<li className="d-flex align-items-center mb-4">
-										<img src="/assets/imgs/pricing-1/check-secondary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2 text-400">Personal Email Account</h6>
-									</li>
-									<li className="d-flex align-items-center">
-										<img src="/assets/imgs/pricing-1/check-secondary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2 text-400">Priority Support</h6>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div className="col-lg-3 col-sm-6 px-lg-0 mb-lg-0 mb-4">
-							<div className="backdrop-filter-md h-100 p-6 position-relative border rounded-4 z-1 border-start-lg-0 rounded-start-lg-0 rounded-end-lg-0">
-								<h6>Standard</h6>
-								<p className="fs-7">Great for large teams</p>
-								<div className="d-flex">
-									<span className="fs-5 text-600 me-1">$</span>
-									<h3 className="text-primary mb-0 text-price-standard">{prices.standardPrice}</h3>
-									<span className="fs-5 text-600 ms-1 fw-bold align-self-end text-type-standard">{prices.standardType}</span>
+								<div className="col-lg-6 mt-lg-0 mt-5">
+									<nav>
+										{/*<div className="nav nav-tabs bg-neutral-100 justify-content-evenly border-bottom-0 mb-5" id="nav-tab" role="tablist">
+											<button className={`${isTab == 1 ? "nav-link active" : "nav-link"} position-relative`} data-bs-toggle="tab" type="button" onClick={() => handleTab(1)} role="tab" >Our History
+												<span className="underline bg-primary" />
+											</button>
+											<button className={`${isTab == 2 ? "nav-link active" : "nav-link"} position-relative`} data-bs-toggle="tab" type="button" onClick={() => handleTab(2)} role="tab" >Our Mission
+												<span className="underline bg-primary" />
+											</button>
+											<button className={`${isTab == 3 ? "nav-link active" : "nav-link"} position-relative`} data-bs-toggle="tab" type="button" onClick={() => handleTab(3)} role="tab" >Our Vision
+												<span className="underline bg-primary" />
+											</button>
+										</div> */}
+									</nav>
+									<div className="tab-content" id="nav-tabContent">
+										<div className={`${isTab == 1 ? "tab-pane fade show active" : "tab-pane fade"}`} role="tabpanel" >
+											<p className="text-900 mb-3">Founded in 1998, <span className="fw-black">Infinia</span> started as a small consulting firm with a big vision: to provide unparalleled strategic and operational expertise to businesses of all sizes.</p>
+											<div className="row">
+												<div className="col-12 col-md-6 mb-3 mb-md-0">
+													<p className="text-900">Over the years, we have expanded our services and grown our team of skilled professionals, building a reputation for delivering results-driven solutions. From our humble beginnings to becoming a trusted partner for clients across diverse industries</p>
+													<ul className="list-unstyled phase-items mb-0">
+														<li className="d-flex align-items-center mt-3">
+															<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
+															<p className="ms-2 mb-0 text-900 fs-6">Best For IT Consulting</p>
+														</li>
+														<li className="d-flex align-items-center mt-3">
+															<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
+															<p className="ms-2 mb-0 text-900 fs-6">Tailored Solutions</p>
+														</li>
+														<li className="d-flex align-items-center mt-3">
+															<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
+															<p className="ms-2 mb-0 text-900 fs-6">Save Money  Time</p>
+														</li>
+														<li className="d-flex align-items-center mt-3">
+															<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
+															<p className="ms-2 mb-0 text-900 fs-6">Expert Team</p>
+														</li>
+													</ul>
+												</div>
+												<div className="col-12 col-md-6 position-relative text-center">
+													<img className="rounded-3" src="/assets/imgs/cta-7/img-2.png" alt="" />
+													<Link href="#" className="position-md-absolute d-block translate-middle-md  w-50 start-0 ms-md-0 ms-10 mt-3 mt-md-0 p-3 rounded-3 bg-linear-1">
+														<span className="rounded-circle">
+															<img className="rounded-circle border border-5 border-primary-light" src=" assets/imgs/cta-2/avatar-1.png" alt="infinia" />
+														</span>
+														<h6 className="mt-1">Kensei <span className="text-500 fs-6">, CEO</span></h6>
+													</Link>
+													<div className="position-md-absolute bottom-0 start-50 mt-3 mt-md-0 translate-middle-md-x">
+														<img src="/assets/imgs/cta-7/name-admin.svg" alt="" />
+													</div>
+												</div>
+											</div>
+										</div>
+										<div className={`${isTab == 2 ? "tab-pane fade show active" : "tab-pane fade"}`} role="tabpanel">
+											<p className="text-900 mb-4">Deliver Results-Driven Solutions: To provide actionable and impactful strategies that drive measurable success for our clients.</p>
+											<div className="row">
+												<div className="col-12 col-md-6">
+													<p className="text-900">Foster Innovation: To encourage creativity and forward-thinking in all our projects, ensuring our clients stay ahead of the curve.</p>
+													<p>Build Lasting Partnerships: To cultivate strong, collaborative relationships with our clients, based on trust, transparency, and mutual respect.</p>
+													<p>Enhance Operational Efficiency: To streamline processes and optimize operations, helping businesses achieve their goals more effectively.</p>
+												</div>
+												<div className="col position-relative text-center">
+													<img src="/assets/imgs/cta-7/img-22.png" alt="" />
+												</div>
+											</div>
+										</div>
+										<div className={`${isTab == 3 ? "tab-pane fade show active" : "tab-pane fade"}`} role="tabpanel">
+											<p className="text-900 mb-4">At Infinia, our vision is to empower businesses to reach their full potential through innovative strategies and expert operational support. </p>
+											<div className="row">
+												<div className="col-12 col-md-6">
+													<p className="text-900">We strive to be the leading consulting firm known for our unwavering commitment to excellence, integrity, and client success. By continuously evolving and adapting to the ever-changing business landscape, we aim to provide solutions that not only meet the needs of today but also anticipate the challenges of tomorrow.</p>
+													<ul className="list-unstyled phase-items mb-0">
+														<li className="d-flex align-items-center mt-3">
+															<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
+															<p className="ms-2 mb-0 text-900 fs-6">Empower Businesses</p>
+														</li>
+														<li className="d-flex align-items-center mt-3">
+															<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
+															<p className="ms-2 mb-0 text-900 fs-6">Commitment to Excellence</p>
+														</li>
+														<li className="d-flex align-items-center mt-3">
+															<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
+															<p className="ms-2 mb-0 text-900 fs-6">Continuous Evolution</p>
+														</li>
+														<li className="d-flex align-items-center mt-3">
+															<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
+															<p className="ms-2 mb-0 text-900 fs-6">Client-Centric Solutions</p>
+														</li>
+													</ul>
+												</div>
+												<div className="col position-relative text-center mt-3">
+													<img className="rounded-3" src="/assets/imgs/cta-7/img-23.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</div>
+									<div className="border-top pt-6 mt-md-8 mt-6">
+										<Link href="#" className="fw-bold btn btn-gradient d-inline-flex align-items-center hover-up">
+											<span className="me-10">Get 15 Days Free Trial</span>
+											<svg xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="none">
+												<path className="fill-white" d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="white" />
+											</svg>
+										</Link>
+										<p className="fs-7 text-500 mt-3">No Card Required. Cancel Anytime.</p>
+									</div>
 								</div>
-								<p className="fs-8">No credit card required</p>
-								<button className="btn btn-gradient w-100 d-flex justify-content-between my-5">
-									Get Started
-									<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
-										<path className="fill-white" d="M17.4177 5.41797L16.3487 6.48705L21.1059 11.2443H0V12.7562H21.1059L16.3487 17.5134L17.4177 18.5825L24 12.0002L17.4177 5.41797Z" fill="white" />
-									</svg>
-								</button>
-								<ul className="list-unstyled mb-0">
-									<li className="d-flex align-items-center mb-4">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">05 Team Member</h6>
-									</li>
-									<li className="d-flex align-items-center mb-4">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">All multimedia channels</h6>
-									</li>
-									<li className="d-flex align-items-center mb-4">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">All advanced CRM features</h6>
-									</li>
-									<li className="d-flex align-items-center mb-4">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">Up to 15,000 contacts</h6>
-									</li>
-									<li className="d-flex align-items-center">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">24/7 Support (Email, Chat)</h6>
-									</li>
-								</ul>
 							</div>
 						</div>
-						<div className="col-lg-3 col-sm-6 px-lg-0 mb-lg-0 mb-4">
-							<div className="backdrop-filter-md h-100 p-6 position-relative border rounded-4 z-1 rounded-start-lg-0 rounded-end-lg-0 border-start-lg-0">
-								<h6>Business</h6>
-								<p className="fs-7">Advanced projects</p>
-								<div className="d-flex">
-									<span className="fs-5 text-600 me-1">$</span>
-									<h3 className="text-primary mb-0 text-price-business">{prices.businessPrice}</h3>
-									<span className="fs-5 text-600 ms-1 fw-bold align-self-end text-type-business">{prices.businessType}</span>
-								</div>
-								<p className="fs-8">No credit card required</p>
-								<button className="btn btn-outline-secondary hover-up w-100 d-flex justify-content-between my-5">
-									Get Started
-									<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
-										<path className="fill-dark" d="M17.4177 5.41797L16.3487 6.48705L21.1059 11.2443H0V12.7562H21.1059L16.3487 17.5134L17.4177 18.5825L24 12.0002L17.4177 5.41797Z" fill="#111827" />
-									</svg>
-								</button>
-								<ul className="list-unstyled mb-0">
-									<li className="d-flex align-items-center mb-4">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">50 Team Member</h6>
-									</li>
-									<li className="d-flex align-items-center mb-4">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">Over 1500 UI Blocks</h6>
-									</li>
-									<li className="d-flex align-items-center mb-4">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">100 GB of Cloud Storage</h6>
-									</li>
-									<li className="d-flex align-items-center mb-4">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">Personal Email Account</h6>
-									</li>
-									<li className="d-flex align-items-center">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">Priority Support</h6>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div className="col-lg-3 col-sm-6 px-lg-0 mb-lg-0 mb-4">
-							<div className="backdrop-filter-md h-100 p-6 position-relative border rounded-4 z-1 border-start-lg-0 rounded-start-lg-0">
-								<h6>Enterprise</h6>
-								<p className=" fs-7">For big companies</p>
-								<div className="d-flex">
-									<span className="fs-5 text-600 me-1">$</span>
-									<h3 className="text-primary mb-0 text-price-enterprise">{prices.enterprisePrice}</h3>
-									<span className="fs-5 text-600 ms-1 fw-bold align-self-end text-type-enterprise">{prices.enterpriseType}</span>
-								</div>
-								<p className="fs-8">No credit card required</p>
-								<button className="btn btn-outline-secondary hover-up w-100 d-flex justify-content-between my-5">
-									Get Started
-									<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
-										<path className="fill-dark" d="M17.4177 5.41797L16.3487 6.48705L21.1059 11.2443H0V12.7562H21.1059L16.3487 17.5134L17.4177 18.5825L24 12.0002L17.4177 5.41797Z" fill="#111827" />
-									</svg>
-								</button>
-								<ul className="list-unstyled mb-0">
-									<li className="d-flex align-items-center mb-4">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">Customized features</h6>
-									</li>
-									<li className="d-flex align-items-center mb-4">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">Scalability  security</h6>
-									</li>
-									<li className="d-flex align-items-center mb-4">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">Account manager</h6>
-									</li>
-									<li className="d-flex align-items-center mb-4">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">Unlimited chat history</h6>
-									</li>
-									<li className="d-flex align-items-center">
-										<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
-										<h6 className="fs-6 mb-0 ms-2">50 Integrations</h6>
-									</li>
-								</ul>
-							</div>
+						<div className="position-absolute top-0 end-0 z-1 flickering p-10 m-10 d-none d-lg-block">
+							<img src="/assets/imgs/cta-7/star-1.svg" alt="infinia" />
 						</div>
 					</div>
 				</div>
-				<div className="rotate-center ellipse-rotate-success position-absolute z-0" />
-				<div className="rotate-center-rev ellipse-rotate-primary position-absolute z-0" />
 			</section>
 
 		</>
