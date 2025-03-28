@@ -164,7 +164,7 @@ export default function PageCaseStudyDetails() {
 						<div className="text-center">
 							<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
 								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Why We Are The Best</span>
+								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Why We Are The Next</span>
 							</div>
 							<h3 className="ds-3 my-3 fw-regular">Proud projects <span className=" fw-bold">that make <br className="d-none d-lg-inline" /> us stand</span> out</h3>
 						</div>
