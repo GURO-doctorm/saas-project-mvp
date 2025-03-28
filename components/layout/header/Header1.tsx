@@ -16,13 +16,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 							<span>Elitpage</span>
 						</Link>
 						<Menu/>
-						<div className="d-flex align-items-center pe-5 pe-lg-0 me-5 me-lg-0">
-							<div  data-bs-toggle="offcanvas" data-bs-target=".offcanvasTop" onClick={handleSearch} className='cursor-pointer'>
+						 <div className="d-flex align-items-center pe-5 pe-lg-0 me-5 me-lg-0">
+							{/*<div  data-bs-toggle="offcanvas" data-bs-target=".offcanvasTop" onClick={handleSearch} className='cursor-pointer'>
 								<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
 									<path className="stroke-dark" d="M19.25 19.25L15.5 15.5M4.75 11C4.75 7.54822 7.54822 4.75 11 4.75C14.4518 4.75 17.25 7.54822 17.25 11C17.25 14.4518 14.4518 17.25 11 17.25C7.54822 17.25 4.75 14.4518 4.75 11Z" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 								</svg>
-							</div>
-							<ThemeSwitch />
+							</div> */}
+							{/* <ThemeSwitch /> */}
 							<Link href="#" className="btn btn-gradient d-none d-md-block">
 								Join For Free Trial
 							</Link>
