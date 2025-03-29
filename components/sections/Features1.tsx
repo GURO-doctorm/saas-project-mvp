@@ -14,9 +14,9 @@ export default function Cta2() {
 					<div className="text-center mb-8">
 						<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
 							<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Why We Are The Rest</span>
+							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Save Your Time</span>
 						</div>
-						<h3 className="ds-3 my-3 fw-regular">We provide <span className=" fw-bold">solutions</span> to <br className="d-lg-block d-none" /> <span className=" fw-bold">big  small</span> organizations</h3>
+						<h3 className="ds-3 my-3 fw-regular">Speed Up Your <span className=" fw-bold">Testing</span> and <br className="d-lg-block d-none" /> <span className=" fw-bold">Start Selling</span> Faster</h3>
 					</div>
 					<div className="row">
 						<div className="col-lg-5 pe-lg-0">
@@ -44,27 +44,27 @@ export default function Cta2() {
 							</div>
 						</div>
 						<div className="col-lg-6 offset-lg-1 ps-lg-0 pe-lg-5 mt-lg-0 mt-6">
-							<h5 className="ds-5">Where your financial dreams become reality</h5>
-							<p className="fs-5 text-500">Provide your team with top-tier group mentoring programs and exceptional professional benefits.</p>
+							<h5 className="ds-5">Landing Page Design Taking Forever..?</h5>
+							<p className="fs-5 text-500">Accelerate the sales process by creating landing pages instantly. Make the creation process fast and efficient.</p>
 							<div className="d-md-flex align-items-center mt-4 mb-5">
 								<ul className="list-unstyled phase-items mb-0">
 									<li className="d-flex align-items-center mt-3">
 										<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
-										<span className="ms-2 text-900 fw-medium fs-6">Best For IT Consulting</span>
+										<span className="ms-2 text-900 fw-medium fs-6">High-Impact Pages</span>
 									</li>
 									<li className="d-flex align-items-center mt-3">
 										<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
-										<span className="ms-2 text-900 fw-medium fs-6">Save Money  Time</span>
+										<span className="ms-2 text-900 fw-medium fs-6">Save Time, Maximize ROI</span>
 									</li>
 								</ul>
 								<ul className="list-unstyled phase-items ms-md-5 mb-0">
 									<li className="d-flex align-items-center mt-3">
 										<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
-										<span className="ms-2 text-900 fw-medium fs-6">Innovative Approaches</span>
+										<span className="ms-2 text-900 fw-medium fs-6">Maximum Conversions</span>
 									</li>
 									<li className="d-flex align-items-center mt-3">
 										<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
-										<span className="ms-2 text-900 fw-medium fs-6">100% Satisfaction</span>
+										<span className="ms-2 text-900 fw-medium fs-6">Customizable Templates</span>
 									</li>
 								</ul>
 							</div>
@@ -75,19 +75,19 @@ export default function Cta2() {
 									</div>
 									<div className="ms-3">
 										<img className="filter-invert" src="/assets/imgs/cta-2/name-ad.svg" alt="infinia" />
-										<h6 className="mt-1">Kensei <span className="text-500 fs-6">, CEO</span></h6>
+										<h6 className="mt-1">Kensei <span className="text-500 fs-6">, Seller</span></h6>
 									</div>
 								</div>
 								<div className="col-md-6 d-flex align-items-center">
 									<span className="line-verticarl border-start h-50 pe-8 position-absolute top-50 start-50 translate-middle d-none d-md-block" />
 									<div className="counter-item-cover counter-item">
 										<div className="content text-center mx-auto">
-											<h2 className="count ds-2 fw-black text-primary">+<span className="odometer" />
-												<CountUp end={12} enableScrollSpy={true} />
+											<h2 className="count ds-2 fw-black text-primary"><span className="odometer" />
+											<CountUp end={8} enableScrollSpy={true} suffix="%" />
 											</h2>
 										</div>
 									</div>
-									<p className="ms-3 fs-5">Years’ <br /> Experience</p>
+									<p className="ms-3 fs-5">More’ <br /> Sales</p>
 								</div>
 							</div>
 						</div>
