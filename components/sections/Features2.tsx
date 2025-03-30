@@ -10,38 +10,38 @@ export default function Static3() {
 						<div className="row align-items-center justify-content-between">
 							<div className="col-lg-auto col-md-12 text-center text-lg-start mb-5 mb-lg-0">
 								<h4 className="mb-0">
-									See why we are <br /> trusted the world over
+								Increase Sales <br /> Without Wasting Time
 								</h4>
 							</div>
 							<div className="col-lg-auto col-md-6">
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
-										<span className="h1 count fw-black text-primary my-0"><span className="odometer"><CountUp end={469} enableScrollSpy={true} /></span><span>k</span></span>
-										<p>New accounts</p>
+										<span className="h1 count fw-black text-primary my-0"><span className="odometer"><CountUp end={10} enableScrollSpy={true} /></span><span>x</span></span>
+										<p>Conversion Rate</p>
 									</div>
 								</div>
 							</div>
 							<div className="col-lg-auto col-md-6">
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
-										<span className="h1 count fw-black text-primary my-0">+<span className="odometer"><CountUp end={92} enableScrollSpy={true} /></span></span>
-										<p>Finished projects</p>
+										<span className="h1 count fw-black text-primary my-0">+<span className="odometer"><CountUp end={90} enableScrollSpy={true} />%</span></span>
+										<p>Page Speed</p>
 									</div>
 								</div>
 							</div>
 							<div className="col-lg-auto col-md-6">
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
-										<span className="h1 count fw-black text-primary my-0">+<span className="odometer"><CountUp end={756} enableScrollSpy={true} /></span></span>
-										<p>Skilled experts</p>
+										<span className="h1 count fw-black text-primary my-0">-<span className="odometer"><CountUp end={30} enableScrollSpy={true} />%</span></span>
+										<p>Exceptional Bounce Rate</p>
 									</div>
 								</div>
 							</div>
 							<div className="col-lg-auto col-md-6">
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
-										<span className="h1 count fw-black text-primary my-0">+<span className="odometer"><CountUp end={25} enableScrollSpy={true} /></span><span>k</span></span>
-										<p>Media posts</p>
+										<span className="h1 count fw-black text-primary my-0">+<span className="odometer"><CountUp end={50} enableScrollSpy={true} /></span><span></span></span>
+										<p>AI-Enhanced Templates</p>
 									</div>
 								</div>
 							</div>
