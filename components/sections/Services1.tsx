@@ -8,9 +8,9 @@ export default function PageIntegration() {
 						<div className="text-center mb-8">
 							<div className="d-flex align-items-center position-relative z-2 justify-content-center bg-primary-soft d-inline-flex rounded-pill border border-2 border-white px-3 py-1">
 								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">working process</span>
+								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">One-Click Integrations</span>
 							</div>
-							<h3 className="ds-3 my-3">Access and integrate with 150+ of your preferred tools</h3>
+							<h3 className="ds-3 my-3">Access and  with 150+ of your preferred tools</h3>
 						</div>
 						<div className="row">
 							{/* prettier-ignore */}

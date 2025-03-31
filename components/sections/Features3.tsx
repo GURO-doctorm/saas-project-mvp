@@ -18,9 +18,9 @@ export default function Features1() {
 								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
 								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Our Features</span>
 							</div>
-							<h2 className="fw-medium mt-4 lh-sm">Fast isn’t enough—
-								<span className="fw-black">your page must look and </span>
-								<span className="text-primary fst-italic" data-aos="fade-zoom-in" data-aos-delay={400}>feel premium.</span>
+							<h2 className="fw-medium mt-4 lh-sm">Speed is a must,
+								<span className="fw-black">but perfection is what </span>
+								<span className="text-primary fst-italic" data-aos="fade-zoom-in" data-aos-delay={400}>builds trust.</span>
 							</h2>
 						</div>
 						<div className="col-lg-8">
@@ -62,8 +62,8 @@ export default function Features1() {
 										<img src="/assets/imgs/features-1/icon-1.svg" alt="infinia" />
 									</div>
 								</div>
-								<h6> organization</h6>
-								<p>A business consultant provides expert advice and guidance to businesses on various aspects.</p>
+								<h6> Branding Made Simple</h6>
+								<p>Elevate your brand with premium pages designed to build trust and drive sales.</p>
 							</div>
 						</div>
 						<div className="col-lg-3 col-md-6" data-aos="fade-zoom-in" data-aos-delay={100}>
@@ -73,8 +73,8 @@ export default function Features1() {
 										<img src="/assets/imgs/features-1/icon-2.svg" alt="infinia" />
 									</div>
 								</div>
-								<h6>Strategy Development</h6>
-								<p>Business consultants play a crucial role by offering expert advice and guidance to companies</p>
+								<h6>Effortless Testing</h6>
+								<p>Test products at lightning speed with pre-optimized, ready-to-use landing pages.</p>
 							</div>
 						</div>
 						<div className="col-lg-3 col-md-6" data-aos="fade-zoom-in" data-aos-delay={200}>
@@ -84,8 +84,8 @@ export default function Features1() {
 										<img src="/assets/imgs/features-1/icon-3.svg" alt="infinia" />
 									</div>
 								</div>
-								<h6>Data analytics</h6>
-								<p>Consultants provide invaluable expertise to businesses, assisting them with strategic advice</p>
+								<h6>Premium User Experience</h6>
+								<p>CPerfect layouts, intuitive design, and seamless navigation—crafted to impress and convert.</p>
 							</div>
 						</div>
 						<div className="col-lg-3 col-md-6" data-aos="fade-zoom-in" data-aos-delay={300}>
@@ -95,8 +95,8 @@ export default function Features1() {
 										<img src="/assets/imgs/features-1/icon-4.svg" alt="infinia" />
 									</div>
 								</div>
-								<h6>Business Intelligence </h6>
-								<p>Through their deep understanding of industry trends and best practices, consultants empower organizations</p>
+								<h6>Multi-Language</h6>
+								<p>Effortlessly create landing pages in more than 12 languages, reaching customers wherever they are.</p>
 							</div>
 						</div> 
 					</div>
