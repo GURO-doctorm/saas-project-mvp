@@ -10,7 +10,7 @@ export default function PageIntegration() {
 								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
 								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">One-Click Integrations</span>
 							</div>
-							<h3 className="ds-3 my-3">Access and  with 150+ of your preferred tools</h3>
+							<h3 className="ds-3 my-3">Export your landing pages instantly in just a few clicks.</h3>
 						</div>
 						<div className="row">
 							{/* prettier-ignore */}
@@ -18,9 +18,9 @@ export default function PageIntegration() {
 								<div className="border rounded-4 p-2 mb-4">
 									<div className="p-6 rounded-3 border">
 										<img className="filter-invert" src="/assets/imgs/other/icon-1.svg" alt="infinia" />
-										<p className="pt-4 mt-4 mb-4 border-top">Separating your work from your home life can improve work-life balance and coworking spaces provide a dedicated place to work</p>
+										<p className="pt-4 mt-4 mb-4 border-top">Boost your Shopify store’s performance by exporting fast-loading, high-converting landing pages.</p>
 										<Link href="#">
-											<span className="fw-bold text-primary">Install now</span>
+											<span className="fw-bold text-primary">Try now</span>
 											<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={18} height={18} viewBox="0 0 18 18" fill="none">
 												<path className="fill-dark" d="M13.0633 4.06329L12.2615 4.86511L15.8294 8.43303H0V9.56698H15.8294L12.2615 13.1349L13.0633 13.9367L18 8.99997L13.0633 4.06329Z" fill="#111827" />
 											</svg>
@@ -32,9 +32,9 @@ export default function PageIntegration() {
 								<div className="border rounded-4 p-2 mb-4">
 									<div className="p-6 rounded-3 border">
 										<img className="@@filter" src="/assets/imgs/other/icon-2.svg" alt="infinia" />
-										<p className="pt-4 mt-4 mb-4 border-top">Separating your work from your home life can improve work-life balance and coworking spaces provide a dedicated place to work</p>
+										<p className="pt-4 mt-4 mb-4 border-top">Effortlessly export your landing pages to your YouCan store in just a few clicks—no technical skills required.</p>
 										<Link href="#">
-											<span className="fw-bold text-primary">Install now</span>
+											<span className="fw-bold text-primary">Try now</span>
 											<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={18} height={18} viewBox="0 0 18 18" fill="none">
 												<path className="fill-dark" d="M13.0633 4.06329L12.2615 4.86511L15.8294 8.43303H0V9.56698H15.8294L12.2615 13.1349L13.0633 13.9367L18 8.99997L13.0633 4.06329Z" fill="#111827" />
 											</svg>
@@ -46,9 +46,9 @@ export default function PageIntegration() {
 								<div className="border rounded-4 p-2 mb-4">
 									<div className="p-6 rounded-3 border">
 										<img className="@@filter" src="/assets/imgs/other/icon-3.svg" alt="infinia" />
-										<p className="pt-4 mt-4 mb-4 border-top">Separating your work from your home life can improve work-life balance and coworking spaces provide a dedicated place to work</p>
+										<p className="pt-4 mt-4 mb-4 border-top">Power up your WooCommerce store with stunning, conversion-optimized landing pages—effortless export in a few clicks.</p>
 										<Link href="#">
-											<span className="fw-bold text-primary">Install now</span>
+											<span className="fw-bold text-primary">Try now</span>
 											<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={18} height={18} viewBox="0 0 18 18" fill="none">
 												<path className="fill-dark" d="M13.0633 4.06329L12.2615 4.86511L15.8294 8.43303H0V9.56698H15.8294L12.2615 13.1349L13.0633 13.9367L18 8.99997L13.0633 4.06329Z" fill="#111827" />
 											</svg>
