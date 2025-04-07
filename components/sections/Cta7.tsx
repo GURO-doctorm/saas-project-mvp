@@ -20,7 +20,7 @@ export default function Cta7() {
 					<div className="container">
 						<div className="row">
 							<div className="col-lg-6">
-								<h5 className="fw-regular ds-5">High <span className="fw-bold">Performance <br /> Services For </span> All Industries.</h5>
+								<h5 className="fw-regular ds-5">Gigh <span className="fw-bold">Performance <br /> Services For </span> All Industries.</h5>
 							</div>
 							<div className="row align-items-center">
 								<div className="col-lg-6 text-lg-start text-center">

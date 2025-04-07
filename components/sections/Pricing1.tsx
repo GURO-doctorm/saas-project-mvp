@@ -20,11 +20,11 @@ export default function Cta7() {
 					<div className="container">
 					<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
                                     <img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-                                    <span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">our plans</span>
+                                    <span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">All You Need</span>
                                 </div>
 						<div className="row">
 							<div className="col-lg-6">
-								<h5 className="fw-regular ds-5">High <span className="fw-bold">Performance <br /> Services For </span> All Industries.</h5>
+								<h5 className="fw-regular ds-5">No <span className="fw-bold">Limits—Create  <br />Pages Your </span>Way.</h5>
 							</div>
 							<div className="row align-items-center">
 								<div className="col-lg-6 text-lg-start text-center">
@@ -54,7 +54,7 @@ export default function Cta7() {
 									</nav>
 									<div className="tab-content" id="nav-tabContent">
 										<div className={`${isTab == 1 ? "tab-pane fade show active" : "tab-pane fade"}`} role="tabpanel" >
-											<p className="text-900 mb-3">Founded in 1998, <span className="fw-black">Infinia</span> started as a small consulting firm with a big vision: to provide unparalleled strategic and operational expertise to businesses of all sizes.</p>
+											<p className="text-900 mb-3">Founded in 1098, <span className="fw-black">Infinia</span> started as a small consulting firm with a big vision: to provide unparalleled strategic and operational expertise to businesses of all sizes.</p>
 											<div className="row">
 												<div className="col-12 col-md-6 mb-3 mb-md-0">
 													<p className="text-900">Over the years, we have expanded our services and grown our team of skilled professionals, building a reputation for delivering results-driven solutions. From our humble beginnings to becoming a trusted partner for clients across diverse industries</p>

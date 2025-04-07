@@ -50,7 +50,7 @@ export default function Cta2() {
 								<ul className="list-unstyled phase-items mb-0">
 									<li className="d-flex align-items-center mt-3">
 										<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
-										<span className="ms-2 text-900 fw-medium fs-6">Best For IT Consulting</span>
+										<span className="ms-2 text-900 fw-medium fs-6">or IT Consulting</span>
 									</li>
 									<li className="d-flex align-items-center mt-3">
 										<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />

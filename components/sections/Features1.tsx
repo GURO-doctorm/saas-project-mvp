@@ -70,6 +70,15 @@ export default function Cta2() {
 							</div>
 							<div className="row position-relative mt-5 mt-md-0">
 								<div className="col-md-6 d-flex align-items-center">
+									<Link href="/page-services-1" className="btn btn-gradient" data-aos="fade-zoom-in" data-aos-delay={300}>
+									Start Your trail
+									<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
+										<path className="stroke-white" d="M17.25 15.25V6.75H8.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+										<path className="stroke-white" d="M17 7L6.75 17.25" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+									</svg>
+								</Link>
+								</div>
+								{/*<div className="col-md-6 d-flex align-items-center">
 									<div className="rounded-circle">
 										<img className="rounded-circle border border-5 border-primary-light" src=" assets/imgs/cta-2/avatar-1.png" alt="infinia" />
 									</div>
@@ -77,7 +86,7 @@ export default function Cta2() {
 										<img className="filter-invert" src="/assets/imgs/cta-2/name-ad.svg" alt="infinia" />
 										<h6 className="mt-1">Kensei <span className="text-500 fs-6">, Seller</span></h6>
 									</div>
-								</div>
+								</div> */}
 								<div className="col-md-6 d-flex align-items-center">
 									<span className="line-verticarl border-start h-50 pe-8 position-absolute top-50 start-50 translate-middle d-none d-md-block" />
 									<div className="counter-item-cover counter-item">

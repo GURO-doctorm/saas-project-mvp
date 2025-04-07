@@ -64,7 +64,7 @@ export default function PageAbout() {
 									<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
 									<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Who we are</span>
 								</div>
-								<h5 className="ds-5 my-3">Where your financial dreams become reality</h5>
+								<h5 className="ds-5 my-3">No Limits—Create Pages Your Way</h5>
 								<p className="fs-5 text-500">Infinia is a digital company specializing in website creation. Enterprises of all sizes—from emerging startups to large corporations—utilize our theme to develop and manage their online presence.</p>
 								<div className="d-md-flex align-items-center mt-4 mb-5">
 									<ul className="list-unstyled phase-items mb-0">
