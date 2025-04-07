@@ -54,26 +54,26 @@ export default function Cta7() {
 									</nav>
 									<div className="tab-content" id="nav-tabContent">
 										<div className={`${isTab == 1 ? "tab-pane fade show active" : "tab-pane fade"}`} role="tabpanel" >
-											<p className="text-900 mb-3">Founded in 1098, <span className="fw-black">Infinia</span> started as a small consulting firm with a big vision: to provide unparalleled strategic and operational expertise to businesses of all sizes.</p>
+											<p className="text-900 mb-3">Testing products, optimizing winners, scaling fast—why do landing pages still take days when <span className="fw-black">speed means profit ?</span></p>
 											<div className="row">
 												<div className="col-12 col-md-6 mb-3 mb-md-0">
-													<p className="text-900">Over the years, we have expanded our services and grown our team of skilled professionals, building a reputation for delivering results-driven solutions. From our humble beginnings to becoming a trusted partner for clients across diverse industries</p>
+													<p className="text-900"> From initial tests to full-scale launches, your landing pages should accelerate growth—not hold it back. But poor design and platform limitations are slowing you down at every stage. Now, you can instantly deploy test pages, quickly optimize the winners, and effortlessly scale proven performers.</p>
 													<ul className="list-unstyled phase-items mb-0">
 														<li className="d-flex align-items-center mt-3">
 															<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
-															<p className="ms-2 mb-0 text-900 fs-6">Best For IT Consulting</p>
+															<p className="ms-2 mb-0 text-900 fs-6">One-click generation</p>
 														</li>
 														<li className="d-flex align-items-center mt-3">
 															<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
-															<p className="ms-2 mb-0 text-900 fs-6">Tailored Solutions</p>
+															<p className="ms-2 mb-0 text-900 fs-6">A/B Test Easily</p>
 														</li>
 														<li className="d-flex align-items-center mt-3">
 															<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
-															<p className="ms-2 mb-0 text-900 fs-6">Save Money  Time</p>
+															<p className="ms-2 mb-0 text-900 fs-6">Quick Customization</p>
 														</li>
 														<li className="d-flex align-items-center mt-3">
 															<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
-															<p className="ms-2 mb-0 text-900 fs-6">Expert Team</p>
+															<p className="ms-2 mb-0 text-900 fs-6">Optimized Forms for COD</p>
 														</li>
 													</ul>
 												</div>
@@ -83,7 +83,7 @@ export default function Cta7() {
 														<span className="rounded-circle">
 															<img className="rounded-circle border border-5 border-primary-light" src=" assets/imgs/cta-2/avatar-1.png" alt="infinia" />
 														</span>
-														<h6 className="mt-1">Kensei <span className="text-500 fs-6">, CEO</span></h6>
+														<h6 className="mt-1">Kensei <span className="text-500 fs-6">, Marketer</span></h6>
 													</Link>
 													<div className="position-md-absolute bottom-0 start-50 mt-3 mt-md-0 translate-middle-md-x">
 														<img src="/assets/imgs/cta-7/name-admin.svg" alt="" />
