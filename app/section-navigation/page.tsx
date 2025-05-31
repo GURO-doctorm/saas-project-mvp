@@ -119,7 +119,7 @@ export default function SectionNavigation() {
 									</li>
 									<li className="nav-item dropdown has-mega-menu">
 										<Link className="nav-link fw-bold d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											Pages
+											Pricing
 										</Link>
 										<div className="mega-menu fix start-50 translate-middle-x">
 											<div className="container">
@@ -751,7 +751,7 @@ export default function SectionNavigation() {
 									</li>
 									<li className="nav-item dropdown has-mega-menu">
 										<Link className="nav-link fw-bold d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											Pages
+											About Us
 										</Link>
 										<div className="mega-menu fix start-50 translate-middle-x">
 											<div className="container">
