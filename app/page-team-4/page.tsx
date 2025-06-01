@@ -9,34 +9,6 @@ export default function PageTeam4() {
 			<Layout >
 
 				{/* head-1 */}
-				<section className="bg-linear-3 head-1 pt-110">
-					<div className="container">
-						<div className="d-flex flex-lg-row flex-column align-items-center">
-							<div className="mb-lg-0 mb-8">
-								<h3 className="ds-3 fw-regular">
-									Stay <span className="fw-bold">updated</span> with <br />
-									the <span className="fw-bold">latest news</span> <br />
-									from <span className="fw-bold">our team.</span>
-								</h3>
-								<div className="d-flex mt-3 justify-content-start align-items-center">
-									<div className="avt-hero">
-										<img className=" icon-shape icon-xxl border border-5 border-white-keep bg-primary-soft rounded-circle" src="/assets/imgs/hero-3/avatar-1.png" alt="infinia" />
-									</div>
-									<div className="avt-hero">
-										<img className=" icon-shape icon-xxl border border-5 border-white-keep bg-primary-soft rounded-circle" src="/assets/imgs/hero-3/avatar-2.png" alt="infinia" />
-									</div>
-									<div className="avt-hero icon-shape icon-xxl border border-5 border-white-keep bg-primary-soft rounded-circle">
-										<img src=" assets/imgs/hero-3/icon.svg" alt="infinia" />
-									</div>
-									<h6 className="text-500"> Don't miss the trending</h6>
-								</div>
-							</div>
-							<div className="ms-auto rounded-2 border border-5 border-white">
-								<img className="rounded-2" src="/assets/imgs/other/img-2.png" alt="infinia" />
-							</div>
-						</div>
-					</div>
-				</section>
 				{/* prettier-ignore */}
 				{/*Team 4*/}
 				<section className="section-team-4 section-padding position-relative overflow-hidden">
@@ -48,9 +20,9 @@ export default function PageTeam4() {
 							</div>
 							<h3 className="ds-3 my-3">Meet Our Team</h3>
 							<p className="fs-5">
-								Meet the talented and passionate team members who drive our
+								Forged in stardust and logic, our alien team crafts landing pages
 								<br />
-								company forward every day.
+								that defy gravity and expectation alike.
 							</p>
 						</div>
 						<div className="row mt-8 mb-lg-8 m-0">
@@ -58,13 +30,13 @@ export default function PageTeam4() {
 							<div className="col-lg-4 col-md-6 mb-lg-4 mb-8 text-center">
 								<div className="position-relative d-inline-block z-1">
 									<div className="zoom-img rounded-3">
-										<img className="img-fluid w-100" src="/assets/imgs/team-4/avatar-1.png" alt="infinia" />
+										<img className="img-fluid w-100" src="/assets/imgs/team-4/avatar-xxx.png" alt="infinia" />
 									</div>
 									<div className="hover-up">
 										<Link href="#" className="card-team text-start rounded-3 position-absolute top-100 translate-middle-y start-0 end-0 w-100 z-1 backdrop-filter w-auto p-4 mx-6 shadow-1">
-											<h6>Esther Howard</h6>
+											<h6>Zeruun Vox</h6>
 											<span className="d-flex justify-content-between">
-												<span className="fs-6 text-600 me-auto">Co-Founder</span>
+												<span className="fs-6 text-600 me-auto">Chief Software Architect</span>
 												<svg xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="#007BFF">
 													<path d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="#6d4df2" />
 												</svg>
@@ -76,13 +48,13 @@ export default function PageTeam4() {
 							<div className="col-lg-4 col-md-6 mb-lg-4 mb-8 text-center">
 								<div className="position-relative d-inline-block z-1">
 									<div className="zoom-img rounded-3">
-										<img className="img-fluid w-100" src="/assets/imgs/team-4/avatar-2.png" alt="infinia" />
+										<img className="img-fluid w-100" src="/assets/imgs/team-4/avatar-x.png" alt="infinia" />
 									</div>
 									<div className="hover-up">
 										<Link href="#" className="card-team text-start rounded-3 position-absolute top-100 translate-middle-y start-0 end-0 w-100 z-1 backdrop-filter w-auto p-4 mx-6 shadow-1">
-											<h6>Ashley Hardy</h6>
+											<h6>Thalrex Quor</h6>
 											<span className="d-flex justify-content-between">
-												<span className="fs-6 text-600 me-auto">Chief Finance Officer</span>
+												<span className="fs-6 text-600 me-auto">Founder & CEO</span>
 												<svg xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="#007BFF">
 													<path d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="#6d4df2" />
 												</svg>
@@ -94,88 +66,13 @@ export default function PageTeam4() {
 							<div className="col-lg-4 col-md-6 mb-lg-4 mb-8 text-center">
 								<div className="position-relative d-inline-block z-1">
 									<div className="zoom-img rounded-3">
-										<img className="img-fluid w-100" src="/assets/imgs/team-4/avatar-3.png" alt="infinia" />
+										<img className="img-fluid w-100" src="/assets/imgs/team-4/avatar-xx.png" alt="infinia" />
 									</div>
 									<div className="hover-up">
 										<Link href="#" className="card-team text-start rounded-3 position-absolute top-100 translate-middle-y start-0 end-0 w-100 z-1 backdrop-filter w-auto p-4 mx-6 shadow-1">
-											<h6>Clark Roberts</h6>
+											<h6>Aelari Vynn</h6>
 											<span className="d-flex justify-content-between">
-												<span className="fs-6 text-600 me-auto">VP Sales and Marketing </span>
-												<svg xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="#007BFF">
-													<path d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="#6d4df2" />
-												</svg>
-											</span>
-										</Link>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="row mt-lg-10 mb-4">
-							{/* prettier-ignore */}
-							<div className="col-lg-3 col-md-6 mb-lg-4 mb-8 text-center">
-								<div className="position-relative d-inline-block z-1">
-									<div className="zoom-img rounded-3">
-										<img className="img-fluid w-100" src="/assets/imgs/team-4/avatar-4.png" alt="infinia" />
-									</div>
-									<div className="hover-up">
-										<Link href="#" className="card-team text-start rounded-3 position-absolute top-100 translate-middle-y start-0 end-0 w-100 z-1 backdrop-filter w-auto p-4 mx-4 shadow-1">
-											<h6>Dennis Norris</h6>
-											<span className="d-flex justify-content-between">
-												<span className="fs-6 text-600 me-auto">Chief Marketing Officer</span>
-												<svg xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="#007BFF">
-													<path d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="#6d4df2" />
-												</svg>
-											</span>
-										</Link>
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-3 col-md-6 mb-lg-4 mb-8 text-center">
-								<div className="position-relative d-inline-block z-1">
-									<div className="zoom-img rounded-3">
-										<img className="img-fluid w-100" src="/assets/imgs/team-4/avatar-5.png" alt="infinia" />
-									</div>
-									<div className="hover-up">
-										<Link href="#" className="card-team text-start rounded-3 position-absolute top-100 translate-middle-y start-0 end-0 w-100 z-1 backdrop-filter w-auto p-4 mx-4 shadow-1">
-											<h6>Gina Kennedy</h6>
-											<span className="d-flex justify-content-between">
-												<span className="fs-6 text-600 me-auto">Administrator </span>
-												<svg xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="#007BFF">
-													<path d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="#6d4df2" />
-												</svg>
-											</span>
-										</Link>
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-3 col-md-6 mb-lg-4 mb-8 text-center">
-								<div className="position-relative d-inline-block z-1">
-									<div className="zoom-img rounded-3">
-										<img className="img-fluid w-100" src="/assets/imgs/team-4/avatar-6.png" alt="infinia" />
-									</div>
-									<div className="hover-up">
-										<Link href="#" className="card-team text-start rounded-3 position-absolute top-100 translate-middle-y start-0 end-0 w-100 z-1 backdrop-filter w-auto p-4 mx-4 shadow-1">
-											<h6>Fernando Torres</h6>
-											<span className="d-flex justify-content-between">
-												<span className="fs-6 text-600 me-auto">Tax Consultant</span>
-												<svg xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="#007BFF">
-													<path d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="#6d4df2" />
-												</svg>
-											</span>
-										</Link>
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-3 col-md-6 mb-lg-4 mb-8 text-center">
-								<div className="position-relative d-inline-block z-1">
-									<div className="zoom-img rounded-3">
-										<img className="img-fluid w-100" src="/assets/imgs/team-4/avatar-7.png" alt="infinia" />
-									</div>
-									<div className="hover-up">
-										<Link href="#" className="card-team text-start rounded-3 position-absolute top-100 translate-middle-y start-0 end-0 w-100 z-1 backdrop-filter w-auto p-4 mx-4 shadow-1">
-											<h6>Esther Howard</h6>
-											<span className="d-flex justify-content-between">
-												<span className="fs-6 text-600 me-auto">Amelia Earhart</span>
+												<span className="fs-6 text-600 me-auto">Designer </span>
 												<svg xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="#007BFF">
 													<path d="M17.4177 0.417969L16.3487 1.48705L21.1059 6.24429H0V7.75621H21.1059L16.3487 12.5134L17.4177 13.5825L24 7.0002L17.4177 0.417969Z" fill="#6d4df2" />
 												</svg>
