@@ -107,7 +107,7 @@ export default function Pricing2() {
 										<p className="fs-7">Great for large teams</p>
 										<div className="d-flex">
 											<span className="fs-5 text-600 me-1">$</span>
-											<h3 className="text-primary mb-0">49</h3>
+											<h3 className="text-primary mb-0">39</h3>
 											<span className="fs-5 text-600 ms-1 fw-bold align-self-end">/mon</span>
 										</div>
 										<p className="fs-8">No credit card required</p>
