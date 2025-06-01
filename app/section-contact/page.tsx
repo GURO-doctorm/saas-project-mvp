@@ -171,7 +171,7 @@ export default function SectionContact() {
 						<div className="text-center">
 							<h5 className="ds-5 mt-3 mb-3">
 								Thinking about a project? <br className="d-md-block d-none" />
-								Get in touch with us.
+								fet in touch with us.
 							</h5>
 							<span className="fs-5 fw-medium">Connect with Us Today through the Details Below or Fill <br className="d-md-block d-none" />
 								Out the Form for a Prompt Response</span>

@@ -127,7 +127,7 @@ export default function PageContact1() {
 									<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
 									<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Contact Us</span>
 								</div>
-								<h5 className="ds-5 mt-3 mb-3 text-white">Thinking about a project? Get in touch with us.</h5>
+								<h5 className="ds-5 mt-3 mb-3 text-white">Thinking about a project? fet in touch with us.</h5>
 								<span className="fs-5 fw-medium text-white">Please let us know if you have a question, want to leave <br className="d-none d-lg-block" />
 									a comment, or would like further information about <br className="d-none d-lg-block" />
 									Infinia System</span>
