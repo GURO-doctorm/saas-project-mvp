@@ -5,7 +5,7 @@ export default function Testimonial1() {
 	return (
 		<>
 
-			<section className="section-testimonial-1 pb-120 @@classList position-relative">
+			<section className="section-testimonial-1 pb-120 pt-0 @@classList position-relative">
 				<div className="container position-relative z-1">
 					<div className="row">
 						<div className="col-lg-4">

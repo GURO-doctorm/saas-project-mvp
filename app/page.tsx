@@ -9,7 +9,6 @@ import Newsletter1 from "@/components/sections/Newsletter1"
 import Pricing1 from "@/components/sections/Pricing1"
 import Services1 from "@/components/sections/Services1"
 import Team1 from "@/components/sections/Team1"
-import Testimonial1 from "@/components/sections/Testimonial1"
 export default function Home() {
 
 	return (
@@ -24,7 +23,6 @@ export default function Home() {
 				<Services1 />
 				<Team1 />
 				<Pricing1 />
-				<Testimonial1 />
 				<Blog1 />
 				<Newsletter1 />
 

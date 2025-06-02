@@ -10,7 +10,7 @@ export default function Features1() {
 	return (
 		<>
 
-			<section className="features-1 section-padding">
+			<section className="features-1 section-padding" id="xmore">
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-4">
@@ -85,7 +85,7 @@ export default function Features1() {
 									</div>
 								</div>
 								<h6>Premium User Experience</h6>
-								<p>CPerfect layouts, intuitive design, and seamless navigation—crafted to impress and convert.</p>
+								<p>Perfect layouts, intuitive design, and seamless navigation—crafted to impress and convert.</p>
 							</div>
 						</div>
 						<div className="col-lg-3 col-md-6" data-aos="fade-zoom-in" data-aos-delay={300}>

@@ -12,7 +12,7 @@ export default function PageIntegration() {
             One-Click Integrations
           </span>
         </div>
-        <h3 className="ds-3 my-3">Export your landing pages instantly in just a few clicks.</h3>
+        <h5 className="ds-5 my-5">Break Shopify and YouCan limits — export unique designs to your store.</h5>
       </div>
 
       <div className="row">
@@ -20,9 +20,9 @@ export default function PageIntegration() {
         <div className="col-lg-4 col-md-6">
           <div className="border rounded-4 p-2 mb-4">
             <div className="p-6 rounded-3 border">
-              <img className="filter-invert" src="/assets/imgs/other/icon-1.svg" alt="infinia" />
+              <img className="filter-invert" src="/assets/imgs/other/shopify1.svg" alt="infinia" />
               <p className="pt-4 mt-4 mb-4 border-top">
-                Boost your Shopify store’s performance by exporting fast-loading, high-converting landing pages.
+                Push past Shopify’s limits and boost your store’s performance with custom, high-converting landing pages that load fast, sell better, and elevate your brand effortlessly.
               </p>
               <Link href="#">
                 <span className="fw-bold text-primary">Try now</span>
@@ -43,7 +43,7 @@ export default function PageIntegration() {
 											<img className="avt-hero" src="/assets/imgs/hero-1/avatar-2.png" alt="infinia" />
 											<img className="avt-hero" src=" assets/imgs/hero-1/avatar-3.png" alt="infinia" />
 										</div>
-										<h1 className="count fw-black text-white my-0">+<span className="odometer" /><CountUp end={500} enableScrollSpy={true} />k</h1>
+										<h1 className="count fw-black text-white my-0">+<span className="odometer" /><CountUp end={50} enableScrollSpy={true} />k</h1>
 										<p className="fs-5 text-100-keep mb-0">Users Active / Month</p>
 									</div>
 									<img className="position-absolute top-50 start-50 translate-middle z-0" src="/assets/imgs/contact-4/img-bg-1.png" alt="infinia" />
@@ -55,9 +55,9 @@ export default function PageIntegration() {
         <div className="col-lg-4 col-md-6">
           <div className="border rounded-4 p-2 mb-4">
             <div className="p-6 rounded-3 border">
-              <img className="filter-invert" src="/assets/imgs/other/icon-3.svg" alt="infinia" />
+              <img className="filter-invert" src="/assets/imgs/other/youcanx.svg" alt="infinia" />
               <p className="pt-4 mt-4 mb-4 border-top">
-                Power up your WooCommerce store with stunning, conversion-optimized landing pages—effortless export in a few clicks.
+                Go beyond YouCan’s basics—unlock advanced design freedom and drive more sales with unique landing pages tailored for conversion.
               </p>
               <Link href="#">
                 <span className="fw-bold text-primary">Try now</span>
