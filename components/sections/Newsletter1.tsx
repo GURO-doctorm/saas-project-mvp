@@ -9,13 +9,13 @@ export default function Newsletter1() {
 				<div className="container pt-0 @@classList">
 					<div className="row">
 						<div className="col-10 mx-auto">
-							<div className="banner bg-primary-light rounded-3 position-relative px-8 py-lg-0 py-8">
+							<div className="banner bg-neutral-700 rounded-3 position-relative px-8 py-lg-0 py-8">
 								<div className="d-flex flex-column flex-lg-row align-items-center justify-content-between position-relative z-1">
 									<h6 className="fw-regular ds-6 text-white">
 										We are<span className="fw-bold"> Looking to <br />Expand </span> Our Team
 									</h6>
 									<img src="/assets/imgs/banner-2/img-1.png" alt="infinia" />
-									<Link href="#" className="btn btn-success d-block mt-3 mt-lg-0">
+									<Link href="#" className="btn btn-primary d-block mt-3 mt-lg-0">
 										Explore Now
 										<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
 											<path className="stroke-white" d="M17.25 15.25V6.75H8.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

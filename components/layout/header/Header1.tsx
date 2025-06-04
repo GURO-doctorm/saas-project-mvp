@@ -12,8 +12,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 				<nav className={`navbar navbar-expand-lg navbar-light w-100 z-999 ${scroll ? 'navbar-stick' : ''}`} style={{ position: `${scroll? "fixed" : "relative"}`, top: `${scroll? "0" : "auto"}` }}>
 					<div className="container">
 						<Link className="navbar-brand d-flex main-logo align-items-center" href="/">
-							<img src="/assets/imgs/template/favicon.svg" alt="infinia" />
-							<span>Elitpage</span>
+							<img src="/assets/imgs/template/xvilo.svg" alt="infinia" />
+							<span>Plando </span>
 						</Link>
 						<Menu/>
 						 <div className="d-flex align-items-center pe-5 pe-lg-0 me-5 me-lg-0">

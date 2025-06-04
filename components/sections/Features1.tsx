@@ -1,11 +1,10 @@
 'use client'
 import Link from "next/link"
 import { useState } from 'react'
-import ModalVideo from 'react-modal-video'
 
 export default function Cta4() {
 
-	const [isOpen, setOpen] = useState(false)
+	const [, setOpen] = useState(false)
 
 	return (
 		<>
@@ -15,16 +14,16 @@ export default function Cta4() {
 						<div className="col-lg-6 text-center">
 							<div className="text-center rounded-4 position-relative d-inline-flex">
 								<div className="zoom-img rounded-4 position-relative z-1">
-									<img className="rounded-4" src="/assets/imgs/cta-4/img-1.png" alt="infinia" />
+									<img className="rounded-4" src="/assets/imgs/cta-4/green2.png" alt="infinia" />
 									<div className="position-absolute top-50 start-50 translate-middle z-2">
 										<Link href="#" onClick={() => setOpen(true)} scroll={false} className="d-inline-flex align-items-center rounded-4 text-nowrap backdrop-filter px-3 py-2 popup-video hover-up me-3 shadow-1">
 											<span className="backdrop-filter me-2 icon-shape icon-md rounded-circle">
-												<svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
-													<path className="stroke-dark" d="M5.0978 3.31244L12.0958 6.80342C13.077 7.29449 13.0767 8.69249 12.0954 9.18316L5.09734 12.6927C4.21074 13.136 3.16687 12.4925 3.16687 11.5027L3.16687 4.50219C3.16687 3.51217 4.2112 2.86872 5.0978 3.31244Z" stroke="#111827" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                                                  <path d="M12 0C11.4 3.2 8.8 5.8 5.6 6.4 8.8 7 11.4 9.6 12 12c0.6-2.4 3.2-5 6.4-5.6C15.2 5.8 12.6 3.2 12 0zm-7 9c-.4 2.4-2.6 4.6-5 5 2.4.4 4.6 2.6 5 5 .4-2.4 2.6-4.6 5-5-2.4-.4-4.6-2.6-5-5zm16 6c-.3 1.2-1.3 2.2-2.5 2.5 1.2.3 2.2 1.3 2.5 2.5.3-1.2 1.3-2.2 2.5-2.5-1.2-.3-2.2-1.3-2.5-2.5z" />
+                                                </svg>
 											</span>
 											<span className="fw-bold fs-7 text-900">
-												Video Guide
+												Try Template
 											</span>
 										</Link>
 									</div>
@@ -78,7 +77,7 @@ export default function Cta4() {
 				</div>
 			</section>
 
-			<ModalVideo channel='youtube' isOpen={isOpen} videoId="gXFATcwrO-U" onClose={() => setOpen(false)} />
+			
 		</>
 	)
 }

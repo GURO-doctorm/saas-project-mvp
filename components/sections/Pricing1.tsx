@@ -18,9 +18,9 @@ export default function Cta7() {
 			<section>
 				<div className="container-fluid position-relative section-padding">
 					<div className="container">
-					<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
-                                    <img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-                                    <span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">All You Need</span>
+					<div className="d-flex align-items-center justify-content-center bg-linear-1 border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
+                                    <img src="/assets/imgs/features-1/dotx.png" alt="infinia" />
+                                    <span className="tag-spacing fs-7 fw-bold text-white ms-2 text-uppercase">All You Need</span>
                                 </div>
 						<div className="row">
 							<div className="col-lg-6">
@@ -81,9 +81,9 @@ export default function Cta7() {
 													<img className="rounded-3" src="/assets/imgs/cta-7/img-2.png" alt="" />
 													<Link href="#" className="position-md-absolute d-block translate-middle-md  w-50 start-0 ms-md-0 ms-10 mt-3 mt-md-0 p-3 rounded-3 bg-linear-1">
 														<span className="rounded-circle">
-															<img className="rounded-circle border border-5 border-primary-light" src=" assets/imgs/cta-2/avatar-1.png" alt="infinia" />
+															<img className="rounded-circle border border-5 border-white" src=" assets/imgs/cta-2/avatar-1.png" alt="infinia" />
 														</span>
-														<h6 className="mt-1">Kensei <span className="text-500 fs-6">, Marketer</span></h6>
+														<h6 className="mt-1 text-white">Kensei <span className="text-white fs-6">, Marketer</span></h6>
 													</Link>
 													<div className="position-md-absolute bottom-0 start-50 mt-3 mt-md-0 translate-middle-md-x">
 														<img src="/assets/imgs/cta-7/name-admin.svg" alt="" />

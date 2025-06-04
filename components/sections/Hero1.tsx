@@ -11,10 +11,10 @@ export default function Hero1() {
 							<div className="pe-2">
 								<Link href="#" className="d-flex align-items-center bg-linear-1 d-inline-flex rounded-pill px-2 py-1">
 									<span className="bg-primary fs-9 fw-bold rounded-pill px-2 py-1 text-white">N°1</span>
-									<span className="fs-7 fw-medium text-primary mx-2">AI Solution for Scaling Businesses</span>
+									<span className="fs-7 fw-medium text-white mx-2">AI Solution for Scaling Businesses</span>
 									<svg xmlns="http://www.w3.org/2000/svg" width={18} height={19} viewBox="0 0 18 19" fill="none">
-										<path d="M10.3125 5.5625L14.4375 9.5L10.3125 13.4375" stroke="#6342EC" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
-										<path d="M14.25 9.5H3.5625" stroke="#6342EC" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+										<path d="M10.3125 5.5625L14.4375 9.5L10.3125 13.4375" stroke="#ffffff" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+										<path d="M14.25 9.5H3.5625" stroke="#ffffff" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
 									</svg>
 								</Link>
 								<h3 className="ds-3 mt-4 mb-5" data-aos="fade-zoom-in" data-aos-delay={0}>Design Stunning Landing Pages in Seconds.</h3>
@@ -59,7 +59,7 @@ export default function Hero1() {
 								<img src="/assets/imgs/hero-1/jeb.png" alt="infinia" data-aos="zoom-in" data-aos-delay={200} />
 							</div>
 							<div className="shape-3 position-absolute d-none d-md-block">
-								<img src="/assets/imgs/hero-1/shape-3.png" alt="infinia" data-aos="zoom-in" data-aos-delay={300} />
+								<img src="/assets/imgs/hero-1/rosol.png" alt="infinia" data-aos="zoom-in" data-aos-delay={300} />
 							</div>
 							<div className="alltuchtopdown card-hero backdrop-filter rounded-3 text-center d-inline-block p-3 position-absolute">
 								<img className="rounded-3" src="/assets/imgs/hero-1/chart.png" alt="infinia" />
@@ -72,8 +72,8 @@ export default function Hero1() {
 									<span className="bg-primary fs-9 fw-bold rounded-pill px-2 py-1 text-white">Get</span>
 									<span className="fs-7 fw-medium text-primary mx-2">Free Trial Now</span>
 									<svg xmlns="http://www.w3.org/2000/svg" width={18} height={19} viewBox="0 0 18 19" fill="none">
-										<path d="M10.3125 5.5625L14.4375 9.5L10.3125 13.4375" stroke="#6D4DF2" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
-										<path d="M14.25 9.5H3.5625" stroke="#6D4DF2" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+										<path d="M10.3125 5.5625L14.4375 9.5L10.3125 13.4375" stroke="#ffa69e" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+										<path d="M14.25 9.5H3.5625" stroke="#ffa69e" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
 									</svg>
 								</Link>
 							</div>

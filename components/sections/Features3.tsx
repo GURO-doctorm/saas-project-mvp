@@ -14,9 +14,9 @@ export default function Features1() {
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-4">
-							<div className="d-flex align-items-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-3 py-1">
-								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Our Features</span>
+							<div className="d-flex align-items-center bg-linear-1 border border-2 border-white d-inline-flex rounded-pill px-3 py-1">
+								<img src="/assets/imgs/features-1/dotx.png" alt="infinia" />
+								<span className="tag-spacing fs-7 fw-bold text-white ms-2 text-uppercase">Our Features</span>
 							</div>
 							<h2 className="fw-medium mt-4 lh-sm">Speed is a must,
 								<span className="fw-black">but perfection is what </span>
@@ -57,9 +57,9 @@ export default function Features1() {
 						{/* prettier-ignore */}
 						<div className="col-lg-3 col-md-6" data-aos="fade-zoom-in" data-aos-delay={50}>
 							<div className="feature-item mb-5 mb-lg-0">
-								<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
+								<div className="bg-primary icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 									<div className="icon">
-										<img src="/assets/imgs/features-1/icon-1.svg" alt="infinia" />
+										<img src="/assets/imgs/features-1/wa1.svg" alt="infinia" />
 									</div>
 								</div>
 								<h6> Branding Made Simple</h6>
@@ -68,9 +68,9 @@ export default function Features1() {
 						</div>
 						<div className="col-lg-3 col-md-6" data-aos="fade-zoom-in" data-aos-delay={100}>
 							<div className="feature-item mb-5 mb-lg-0">
-								<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
+								<div className="bg-primary icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 									<div className="icon">
-										<img src="/assets/imgs/features-1/icon-2.svg" alt="infinia" />
+										<img src="/assets/imgs/features-1/wa2.svg" alt="infinia" />
 									</div>
 								</div>
 								<h6>Effortless Testing</h6>
@@ -79,9 +79,9 @@ export default function Features1() {
 						</div>
 						<div className="col-lg-3 col-md-6" data-aos="fade-zoom-in" data-aos-delay={200}>
 							<div className="feature-item mb-5 mb-lg-0">
-								<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
+								<div className="bg-primary icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 									<div className="icon">
-										<img src="/assets/imgs/features-1/icon-3.svg" alt="infinia" />
+										<img src="/assets/imgs/features-1/wa3.svg" alt="infinia" />
 									</div>
 								</div>
 								<h6>Premium User Experience</h6>
@@ -90,9 +90,9 @@ export default function Features1() {
 						</div>
 						<div className="col-lg-3 col-md-6" data-aos="fade-zoom-in" data-aos-delay={300}>
 							<div className="feature-item mb-5 mb-lg-0">
-								<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
+								<div className="bg-primary icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 									<div className="icon">
-										<img src="/assets/imgs/features-1/icon-4.svg" alt="infinia" />
+										<img src="/assets/imgs/features-1/wa4.svg" alt="infinia" />
 									</div>
 								</div>
 								<h6>Multi-Language</h6>

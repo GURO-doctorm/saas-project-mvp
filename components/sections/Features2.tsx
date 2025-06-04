@@ -16,7 +16,7 @@ export default function Static3() {
 							<div className="col-lg-auto col-md-6">
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
-										<span className="h1 count fw-black text-primary my-0"><span className="odometer"><CountUp end={10} enableScrollSpy={true} /></span><span>x</span></span>
+										<span className="h1 count fw-black text-neutral-dark-100 my-0">x<span className="odometer"><CountUp end={10} enableScrollSpy={true} /></span><span></span></span>
 										<p>Conversion Rate</p>
 									</div>
 								</div>
@@ -24,7 +24,7 @@ export default function Static3() {
 							<div className="col-lg-auto col-md-6">
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
-										<span className="h1 count fw-black text-primary my-0">+<span className="odometer"><CountUp end={90} enableScrollSpy={true} />%</span></span>
+										<span className="h1 count fw-black text-neutral-dark-100 my-0">+<span className="odometer"><CountUp end={90} enableScrollSpy={true} />%</span></span>
 										<p>Page Speed</p>
 									</div>
 								</div>
@@ -32,16 +32,8 @@ export default function Static3() {
 							<div className="col-lg-auto col-md-6">
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
-										<span className="h1 count fw-black text-primary my-0">-<span className="odometer"><CountUp end={30} enableScrollSpy={true} />%</span></span>
+										<span className="h1 count fw-black text-neutral-dark-100 my-0">-<span className="odometer"><CountUp end={30} enableScrollSpy={true} />%</span></span>
 										<p>Exceptional Bounce Rate</p>
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-auto col-md-6">
-								<div className="counter-item-cover counter-item">
-									<div className="content text-center mx-auto">
-										<span className="h1 count fw-black text-primary my-0">+<span className="odometer"><CountUp end={50} enableScrollSpy={true} /></span><span></span></span>
-										<p>AI-Enhanced Templates</p>
 									</div>
 								</div>
 							</div>

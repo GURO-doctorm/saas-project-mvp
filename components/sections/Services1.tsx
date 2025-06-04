@@ -6,9 +6,9 @@ export default function PageIntegration() {
   return (
     <div className="container">
       <div className="text-center mb-8">
-        <div className="d-flex align-items-center position-relative z-2 justify-content-center bg-primary-soft d-inline-flex rounded-pill border border-2 border-white px-3 py-1">
-          <img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-          <span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">
+        <div className="d-flex align-items-center position-relative z-2 justify-content-center bg-linear-1 d-inline-flex rounded-pill border border-2 border-white px-3 py-1">
+          <img src="/assets/imgs/features-1/dotx.png" alt="infinia" />
+          <span className="tag-spacing fs-7 fw-bold text-white ms-2 text-uppercase">
             One-Click Integrations
           </span>
         </div>
