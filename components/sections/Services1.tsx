@@ -36,17 +36,17 @@ export default function PageIntegration() {
 
         {/* YouCan */}
 							<div className="col-lg-4">
-								<div className="h-100 bg-primary rounded-4 d-flex align-items-center justify-content-center border position-relative border-5 fix border-white py-5">
+								<div className="h-100 bg-primary-soft rounded-4 d-flex align-items-center justify-content-center border position-relative border-5 fix border-white py-5">
 									<div className="position-relative z-1 fix">
 										<div className="d-flex justify-content-center">
 											<img src="/assets/imgs/hero-1/avatar-1.png" alt="infinia" />
 											<img className="avt-hero" src="/assets/imgs/hero-1/avatar-2.png" alt="infinia" />
 											<img className="avt-hero" src=" assets/imgs/hero-1/avatar-3.png" alt="infinia" />
 										</div>
-										<h1 className="count fw-black text-white my-0">+<span className="odometer" /><CountUp end={50} enableScrollSpy={true} />k</h1>
-										<p className="fs-5 text-100-keep mb-0">Users Active / Month</p>
+										<h1 className="count fw-black text-black my-0">+<span className="odometer" /><CountUp end={50} enableScrollSpy={true} />k</h1>
+										<p className="fs-5 text-black-keep mb-0">Users Active / Month</p>
 									</div>
-									<img className="position-absolute top-50 start-50 translate-middle z-0" src="/assets/imgs/contact-4/img-bg-1.png" alt="infinia" />
+									<img className="position-absolute top-50 start-50 translate-middle z-0" src="/assets/imgs/contact-4/grid-3.png" alt="infinia" />
 								</div>
 							</div>
         
