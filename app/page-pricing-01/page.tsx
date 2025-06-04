@@ -93,9 +93,9 @@ export default function PagePricing01() {
 										<div className="row">
 											<div className="col-lg-6 position-relative pe-8">
 												<div className="text-start mb-lg-0 mb-5">
-													<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
-														<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-														<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">our plans</span>
+													<div className="d-flex align-items-center justify-content-center bg-linear-2 border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
+														<img src="/assets/imgs/features-1/dotx.png" alt="infinia" />
+														<span className="tag-spacing fs-7 fw-bold text-white ms-2 text-uppercase">our plans</span>
 													</div>
 													<h3 className="ds-3 my-3" data-aos="fade-zoom-in" data-aos-delay={0}>Invest in Results</h3>
 													<p className="fs-6 mb-0" data-aos="fade-zoom-in" data-aos-delay={200}>Start building high-converting pages that pay for themselves, Invest once Earn again and again.</p>
@@ -165,15 +165,15 @@ export default function PagePricing01() {
 															</button>
 															<ul className="list-unstyled mb-0">
 																<li className="d-flex align-items-center mb-4">
-																	<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
+																	<img src="/assets/imgs/pricing-1/check-pricing.svg" alt="infinia" />
 																	<h6 className="fs-6 mb-0 ms-2">25 AI-Generated Pages</h6>
 																</li>
 																<li className="d-flex align-items-center mb-4">
-																	<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
+																	<img src="/assets/imgs/pricing-1/check-pricing.svg" alt="infinia" />
 																	<h6 className="fs-6 mb-0 ms-2">Export to 1 platform</h6>
 																</li>
 																<li className="d-flex align-items-center mb-4">
-																	<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
+																	<img src="/assets/imgs/pricing-1/check-pricing.svg" alt="infinia" />
 																	<h6 className="fs-6 mb-0 ms-2">Basic Support</h6>
 																</li>
 																<li className="d-flex align-items-center mb-4">
@@ -201,23 +201,23 @@ export default function PagePricing01() {
 															</button>
 															<ul className="list-unstyled mb-0">
 																<li className="d-flex align-items-center mb-4">
-																	<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
+																	<img src="/assets/imgs/pricing-1/check-pricing.svg" alt="infinia" />
 																	<h6 className="fs-6 mb-0 ms-2">Unlimited AI-Generated Pages</h6>
 																</li>
 																<li className="d-flex align-items-center mb-4">
-																	<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
+																	<img src="/assets/imgs/pricing-1/check-pricing.svg" alt="infinia" />
 																	<h6 className="fs-6 mb-0 ms-2">Export to multiple platforms</h6>
 																</li>
 																<li className="d-flex align-items-center mb-4">
-																	<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
+																	<img src="/assets/imgs/pricing-1/check-pricing.svg" alt="infinia" />
 																	<h6 className="fs-6 mb-0 ms-2">Access to All Templates</h6>
 																</li>
 																<li className="d-flex align-items-center mb-4">
-																	<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
+																	<img src="/assets/imgs/pricing-1/check-pricing.svg" alt="infinia" />
 																	<h6 className="fs-6 mb-0 ms-2">Multiple Languages Supported</h6>
 																</li>
 																<li className="d-flex align-items-center">
-																	<img src="/assets/imgs/pricing-1/check-primary.svg" alt="infinia" />
+																	<img src="/assets/imgs/pricing-1/check-pricing.svg" alt="infinia" />
 																	<h6 className="fs-6 mb-0 ms-2">Premium Support</h6>
 																</li>
 															</ul>
@@ -232,9 +232,9 @@ export default function PagePricing01() {
 				<section className="section-compare position-relative section-padding ">
 					<div className="container position-relative z-1">
 						<div className="text-center mb-10">
-							<div className="d-flex align-items-center position-relative z-2 justify-content-center bg-primary-soft d-inline-flex rounded-pill border border-2 border-white px-3 py-1">
-								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Compare Plans</span>
+							<div className="d-flex align-items-center position-relative z-2 justify-content-center bg-linear-2 d-inline-flex rounded-pill border border-2 border-white px-3 py-1">
+								<img src="/assets/imgs/features-1/dotx.png" alt="infinia" />
+								<span className="tag-spacing fs-7 fw-bold text-white ms-2 text-uppercase">Compare Plans</span>
 							</div>
 							<h3 className="ds-3 my-3 fw-black">Compare Features</h3>
 							<p className="fs-5 mb-0">A management platform to help you succeed</p>
@@ -313,7 +313,7 @@ export default function PagePricing01() {
 											</td>
 											<td>
 												<svg xmlns="http://www.w3.org/2000/svg" width={22} height={22} viewBox="0 0 22 22" fill="none">
-													<path fillRule="evenodd" clipRule="evenodd" d="M11.004 1.38049C16.3188 1.38049 20.629 5.69071 20.629 11.0056C20.629 16.3204 16.3188 20.6306 11.004 20.6306C5.68913 20.6306 1.37891 16.3204 1.37891 11.0056C1.37891 5.69071 5.68913 1.38049 11.004 1.38049ZM9.0052 14.1318L6.64875 11.7734C6.24729 11.3717 6.24721 10.7167 6.64875 10.3151C7.05037 9.91354 7.70834 9.91605 8.10704 10.3151L9.76833 11.9777L13.901 7.84495C14.3027 7.44333 14.9578 7.44333 15.3593 7.84495C15.761 8.24649 15.7604 8.90218 15.3593 9.30324L10.4963 14.1663C10.0952 14.5673 9.43954 14.5679 9.038 14.1663C9.02672 14.155 9.01584 14.1435 9.0052 14.1318Z" fill="#6D4DF2" />
+													<path fillRule="evenodd" clipRule="evenodd" d="M11.004 1.38049C16.3188 1.38049 20.629 5.69071 20.629 11.0056C20.629 16.3204 16.3188 20.6306 11.004 20.6306C5.68913 20.6306 1.37891 16.3204 1.37891 11.0056C1.37891 5.69071 5.68913 1.38049 11.004 1.38049ZM9.0052 14.1318L6.64875 11.7734C6.24729 11.3717 6.24721 10.7167 6.64875 10.3151C7.05037 9.91354 7.70834 9.91605 8.10704 10.3151L9.76833 11.9777L13.901 7.84495C14.3027 7.44333 14.9578 7.44333 15.3593 7.84495C15.761 8.24649 15.7604 8.90218 15.3593 9.30324L10.4963 14.1663C10.0952 14.5673 9.43954 14.5679 9.038 14.1663C9.02672 14.155 9.01584 14.1435 9.0052 14.1318Z" fill="#ffa69e" />
 												</svg>
 											</td>
 										</tr>
@@ -324,12 +324,12 @@ export default function PagePricing01() {
 											</th>
 											<td>
 												<svg xmlns="http://www.w3.org/2000/svg" width={22} height={22} viewBox="0 0 22 22" fill="none">
-													<path fillRule="evenodd" clipRule="evenodd" d="M11.004 1.38049C16.3188 1.38049 20.629 5.69071 20.629 11.0056C20.629 16.3204 16.3188 20.6306 11.004 20.6306C5.68913 20.6306 1.37891 16.3204 1.37891 11.0056C1.37891 5.69071 5.68913 1.38049 11.004 1.38049ZM9.0052 14.1318L6.64875 11.7734C6.24729 11.3717 6.24721 10.7167 6.64875 10.3151C7.05037 9.91354 7.70834 9.91605 8.10704 10.3151L9.76833 11.9777L13.901 7.84495C14.3027 7.44333 14.9578 7.44333 15.3593 7.84495C15.761 8.24649 15.7604 8.90218 15.3593 9.30324L10.4963 14.1663C10.0952 14.5673 9.43954 14.5679 9.038 14.1663C9.02672 14.155 9.01584 14.1435 9.0052 14.1318Z" fill="#6D4DF2" />
+													<path fillRule="evenodd" clipRule="evenodd" d="M11.004 1.38049C16.3188 1.38049 20.629 5.69071 20.629 11.0056C20.629 16.3204 16.3188 20.6306 11.004 20.6306C5.68913 20.6306 1.37891 16.3204 1.37891 11.0056C1.37891 5.69071 5.68913 1.38049 11.004 1.38049ZM9.0052 14.1318L6.64875 11.7734C6.24729 11.3717 6.24721 10.7167 6.64875 10.3151C7.05037 9.91354 7.70834 9.91605 8.10704 10.3151L9.76833 11.9777L13.901 7.84495C14.3027 7.44333 14.9578 7.44333 15.3593 7.84495C15.761 8.24649 15.7604 8.90218 15.3593 9.30324L10.4963 14.1663C10.0952 14.5673 9.43954 14.5679 9.038 14.1663C9.02672 14.155 9.01584 14.1435 9.0052 14.1318Z" fill="#ffa69e" />
 												</svg>
 											</td>
 											<td>
 												<svg xmlns="http://www.w3.org/2000/svg" width={22} height={22} viewBox="0 0 22 22" fill="none">
-													<path fillRule="evenodd" clipRule="evenodd" d="M11.004 1.38049C16.3188 1.38049 20.629 5.69071 20.629 11.0056C20.629 16.3204 16.3188 20.6306 11.004 20.6306C5.68913 20.6306 1.37891 16.3204 1.37891 11.0056C1.37891 5.69071 5.68913 1.38049 11.004 1.38049ZM9.0052 14.1318L6.64875 11.7734C6.24729 11.3717 6.24721 10.7167 6.64875 10.3151C7.05037 9.91354 7.70834 9.91605 8.10704 10.3151L9.76833 11.9777L13.901 7.84495C14.3027 7.44333 14.9578 7.44333 15.3593 7.84495C15.761 8.24649 15.7604 8.90218 15.3593 9.30324L10.4963 14.1663C10.0952 14.5673 9.43954 14.5679 9.038 14.1663C9.02672 14.155 9.01584 14.1435 9.0052 14.1318Z" fill="#6D4DF2" />
+													<path fillRule="evenodd" clipRule="evenodd" d="M11.004 1.38049C16.3188 1.38049 20.629 5.69071 20.629 11.0056C20.629 16.3204 16.3188 20.6306 11.004 20.6306C5.68913 20.6306 1.37891 16.3204 1.37891 11.0056C1.37891 5.69071 5.68913 1.38049 11.004 1.38049ZM9.0052 14.1318L6.64875 11.7734C6.24729 11.3717 6.24721 10.7167 6.64875 10.3151C7.05037 9.91354 7.70834 9.91605 8.10704 10.3151L9.76833 11.9777L13.901 7.84495C14.3027 7.44333 14.9578 7.44333 15.3593 7.84495C15.761 8.24649 15.7604 8.90218 15.3593 9.30324L10.4963 14.1663C10.0952 14.5673 9.43954 14.5679 9.038 14.1663C9.02672 14.155 9.01584 14.1435 9.0052 14.1318Z" fill="#ffa69e" />
 												</svg>
 											</td>
 										</tr>
@@ -340,12 +340,12 @@ export default function PagePricing01() {
 											</th>
 											<td className="text-start">
 												<svg xmlns="http://www.w3.org/2000/svg" width={22} height={22} viewBox="0 0 22 22" fill="none">
-													<path fillRule="evenodd" clipRule="evenodd" d="M11.004 1.38049C16.3188 1.38049 20.629 5.69071 20.629 11.0056C20.629 16.3204 16.3188 20.6306 11.004 20.6306C5.68913 20.6306 1.37891 16.3204 1.37891 11.0056C1.37891 5.69071 5.68913 1.38049 11.004 1.38049ZM9.0052 14.1318L6.64875 11.7734C6.24729 11.3717 6.24721 10.7167 6.64875 10.3151C7.05037 9.91354 7.70834 9.91605 8.10704 10.3151L9.76833 11.9777L13.901 7.84495C14.3027 7.44333 14.9578 7.44333 15.3593 7.84495C15.761 8.24649 15.7604 8.90218 15.3593 9.30324L10.4963 14.1663C10.0952 14.5673 9.43954 14.5679 9.038 14.1663C9.02672 14.155 9.01584 14.1435 9.0052 14.1318Z" fill="#6D4DF2" />
+													<path fillRule="evenodd" clipRule="evenodd" d="M11.004 1.38049C16.3188 1.38049 20.629 5.69071 20.629 11.0056C20.629 16.3204 16.3188 20.6306 11.004 20.6306C5.68913 20.6306 1.37891 16.3204 1.37891 11.0056C1.37891 5.69071 5.68913 1.38049 11.004 1.38049ZM9.0052 14.1318L6.64875 11.7734C6.24729 11.3717 6.24721 10.7167 6.64875 10.3151C7.05037 9.91354 7.70834 9.91605 8.10704 10.3151L9.76833 11.9777L13.901 7.84495C14.3027 7.44333 14.9578 7.44333 15.3593 7.84495C15.761 8.24649 15.7604 8.90218 15.3593 9.30324L10.4963 14.1663C10.0952 14.5673 9.43954 14.5679 9.038 14.1663C9.02672 14.155 9.01584 14.1435 9.0052 14.1318Z" fill="#ffa69e" />
 												</svg>
 											</td>
 											<td>
 												<svg xmlns="http://www.w3.org/2000/svg" width={22} height={22} viewBox="0 0 22 22" fill="none">
-													<path fillRule="evenodd" clipRule="evenodd" d="M11.004 1.38049C16.3188 1.38049 20.629 5.69071 20.629 11.0056C20.629 16.3204 16.3188 20.6306 11.004 20.6306C5.68913 20.6306 1.37891 16.3204 1.37891 11.0056C1.37891 5.69071 5.68913 1.38049 11.004 1.38049ZM9.0052 14.1318L6.64875 11.7734C6.24729 11.3717 6.24721 10.7167 6.64875 10.3151C7.05037 9.91354 7.70834 9.91605 8.10704 10.3151L9.76833 11.9777L13.901 7.84495C14.3027 7.44333 14.9578 7.44333 15.3593 7.84495C15.761 8.24649 15.7604 8.90218 15.3593 9.30324L10.4963 14.1663C10.0952 14.5673 9.43954 14.5679 9.038 14.1663C9.02672 14.155 9.01584 14.1435 9.0052 14.1318Z" fill="#6D4DF2" />
+													<path fillRule="evenodd" clipRule="evenodd" d="M11.004 1.38049C16.3188 1.38049 20.629 5.69071 20.629 11.0056C20.629 16.3204 16.3188 20.6306 11.004 20.6306C5.68913 20.6306 1.37891 16.3204 1.37891 11.0056C1.37891 5.69071 5.68913 1.38049 11.004 1.38049ZM9.0052 14.1318L6.64875 11.7734C6.24729 11.3717 6.24721 10.7167 6.64875 10.3151C7.05037 9.91354 7.70834 9.91605 8.10704 10.3151L9.76833 11.9777L13.901 7.84495C14.3027 7.44333 14.9578 7.44333 15.3593 7.84495C15.761 8.24649 15.7604 8.90218 15.3593 9.30324L10.4963 14.1663C10.0952 14.5673 9.43954 14.5679 9.038 14.1663C9.02672 14.155 9.01584 14.1435 9.0052 14.1318Z" fill="#ffa69e" />
 												</svg>
 											</td>
 										</tr>
@@ -381,21 +381,18 @@ export default function PagePricing01() {
 									<img className="rounded-4" src=" assets/imgs/faqs-1/img-1.png" alt="infinia" />
 									<div className="px-0 card-team rounded-4 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto px-5 py-8 m-5">
 										<div className="d-flex flex-column flex-md-row align-items-start gap-3 mb-4" data-aos="fade-zoom-in" data-aos-delay={0}>
-											<img src="/assets/imgs/faqs-1/icon-1.png" alt="infinia" />
 											<div>
 												<h6 className="m-0">Live chat support 24/7</h6>
 												<p className="m-0">More than 300 employees are ready to help you</p>
 											</div>
 										</div>
 										<div className="d-flex flex-column flex-md-row align-items-start gap-3 mb-4" data-aos="fade-zoom-in" data-aos-delay={100}>
-											<img src="/assets/imgs/faqs-1/icon-2.png" alt="infinia" />
 											<div>
 												<h6 className="m-0">Built for E‑commerce</h6>
 												<p className="m-0">Optimized for Shopify and YouCan sellers</p>
 											</div>
 										</div>
 										<div className="d-flex flex-column flex-md-row align-items-start gap-3" data-aos="fade-zoom-in" data-aos-delay={200}>
-											<img src="/assets/imgs/faqs-1/icon-3.png" alt="infinia" />
 											<div>
 												<h6 className="m-0">Full control</h6>
 												<p className="m-0">Customize every detail</p>
@@ -480,62 +477,6 @@ export default function PagePricing01() {
 				</section>
 				{/*Testimonial 3*/}
 				{/* Newsletter 1 */}
-				<section className="section-newsletter-1 pb-120 pt-120 fix position-relative">
-					<div className="container position-relative fix">
-						<div className="row align-items-center fix text-center border rounded-4 position-relative z-1">
-							<div className="col-lg-6 my-4">
-								<div className="row">
-									<div className="ms-lg-4">
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-1.png" alt="infinia" />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-2.png" alt="infinia" data-aos="fade-zoom-in" data-aos-delay={50} />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3 d-none d-md-inline" src="/assets/imgs/newsletter-1/img-3.png" alt="infinia" />
-									</div>
-								</div>
-								<div className="row">
-									<div>
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-4.png" alt="infinia" />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-5.png" alt="infinia" data-aos="fade-zoom-in" data-aos-delay={100} />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-6.png" alt="infinia" />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-7.png" alt="infinia" data-aos="fade-zoom-in" data-aos-delay={100} />
-									</div>
-								</div>
-								<div className="row d-none d-lg-flex">
-									<div className="me-lg-0">
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-8.png" alt="infinia" data-aos="fade-zoom-in" data-aos-delay={50} />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-9.png" alt="infinia" data-aos="fade-zoom-in" data-aos-delay={100} />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3 d-none d-md-inline" src="/assets/imgs/newsletter-1/img-10.png" alt="infinia" />
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-6 mt-lg-0 mt-5">
-								<div className="px-lg-5 text-lg-start text-center">
-									<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
-										<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-										<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Stay Updated</span>
-									</div>
-									<h4 className="mt-3 mb-3" data-aos="fade-zoom-in" data-aos-delay={100}>Subscribe to our Newsletter!</h4>
-									<span className="fs-6 fw-medium" data-aos="fade-zoom-in" data-aos-delay={200}>Join 52,000+ people on our newsletter</span>
-									<div className="input-group mb-3 mt-4 position-relative">
-										<input type="text" className="ps-5 py-3 form-control bg-neutral-100 rounded-start-pill border-2 border-end-0 border-white" name="name" placeholder="Enter your mail .." />
-										<div className="bg-neutral-100 border-2 border border-start-0 border-white rounded-end-pill">
-											<button className="btn btn-gradient px-3 py-3 m-3 fs-7 fw-bold border-0 rounded-pill" type="button" data-aos="fade-zoom-in" data-aos-delay={100}>Join Now</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="position-absolute top-50 start-50 translate-middle z-0">
-							<img src="/assets/imgs/newsletter-1/bg-line.png" alt="infinia" />
-						</div>
-						<div className="bouncing-blobs-container rounded-4 fix">
-							<div className="bouncing-blobs-glass rounded-4" />
-							<div className="bouncing-blobs">
-								<div className="bouncing-blob bouncing-blob--green" />
-								<div className="bouncing-blob bouncing-blob--primary" />
-							</div>
-						</div>
-					</div>
-				</section>
 
 			</Layout>
 		</>

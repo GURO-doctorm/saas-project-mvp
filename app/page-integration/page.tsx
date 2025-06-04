@@ -12,9 +12,9 @@ export default function PageIntegration() {
 				<section className="section-integrate section-padding">
 					<div className="container">
 						<div className="text-center mb-8">
-							<div className="d-flex align-items-center position-relative z-2 justify-content-center bg-primary-soft d-inline-flex rounded-pill border border-2 border-white px-3 py-1">
-								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">working process</span>
+							<div className="d-flex align-items-center position-relative z-2 justify-content-center bg-linear-2 d-inline-flex rounded-pill border border-2 border-white px-3 py-1">
+								<img src="/assets/imgs/features-1/dotx.png" alt="infinia" />
+								<span className="tag-spacing fs-7 fw-bold text-white ms-2 text-uppercase">working process</span>
 							</div>
 							<h3 className="ds-3 my-3">Access and integrate with your preferred tools</h3>
 						</div>
@@ -66,18 +66,19 @@ export default function PageIntegration() {
 					</div>
 				</section>
 				{/*How It Work 2*/}
-				{/*Testimonial 2*/}<section className="section-newsletter-3 position-relative pb-120">
+				{/*Testimonial 2*/}
+				<section className="section-newsletter-3 position-relative pb-120">
 				<div className="container">
-					<div className="pt-120 pb-120 bg-4 rounded-5 position-relative">
+					<div className="pt-120 pb-120 bg-primary-soft rounded-5 position-relative">
 						<div className="row align-items-center text-center position-relative z-1">
 							<div className="col-lg-6 mx-auto">
 								<div className="px-lg-3 text-center">
-									<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
-										<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-										<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Let’s work together</span>
+									<div className="d-flex align-items-center justify-content-center bg-linear-2 border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
+										<img src="/assets/imgs/features-1/dotx.png" alt="infinia" />
+										<span className="tag-spacing fs-7 fw-bold text-white ms-2 text-uppercase">Let’s work together</span>
 									</div>
 									<h4 className="my-5">Join us now and grow your business.</h4>
-									<p className="fs-6 fw-medium text-900">By clicking the button, you are agreeing with our <Link href="#" className="text-decoration-underline link-hover-primary-light">Term  Conditions</Link></p>
+									<p className="fs-6 fw-medium text-900">By clicking the button, you are agreeing with our <Link href="/page-terms-conditions" className="text-decoration-underline link-hover-primary-light">Term  Conditions</Link></p>
 									<form className="input-group mt-5 position-relative px-2">
 										<input type="text" className="ps-5 py-3 form-control bg-white rounded-start-pill border-2 border-end-0 border-white" name="name" placeholder="Enter your mail .." />
 										<div className="bg-white border-2 border border-start-0 border-white rounded-end-pill">

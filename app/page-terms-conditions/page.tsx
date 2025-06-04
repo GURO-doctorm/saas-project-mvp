@@ -48,9 +48,9 @@ export default function PageTermsConditions() {
 				<section className="section-terms-conditions section-padding">
 					<div className="container">
 						<div className="text-center">
-							<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
-								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Terms and Conditions</span>
+							<div className="d-flex align-items-center justify-content-center bg-linear-2 border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
+								<img src="/assets/imgs/features-1/dotx.png" alt="infinia" />
+								<span className="tag-spacing fs-7 fw-bold text-white ms-2 text-uppercase">Terms and Conditions</span>
 							</div>
 							<h3 className="ds-3 my-3">Terms and Conditions</h3>
 							<p className="fs-5 mb-0">
