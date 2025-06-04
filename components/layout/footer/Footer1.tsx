@@ -10,23 +10,7 @@ export default function Footer1() {
 							<div className="row py-90">
 								<div className="col-lg-4 pe-10" data-aos="fade-zoom-in" data-aos-delay={100}>
 									<Link href="/"><img src="/assets/imgs/logo/logo-white.svg" alt="infinia" /></Link>
-									<p className="text-white fw-medium mt-3 mb-6 opacity-50">You may also realize cost savings from your energy efficient choices in your custom home. Federal tax credits for some green materials can allow you to deduct as much.</p>
-									<div className="d-flex social-icons">
-										<Link href="https://www.facebook.com/" className=" text-white border border-end-0 border-light border-opacity-10 icon-shape icon-md">
-											<svg xmlns="http://www.w3.org/2000/svg" width={10} height={17} viewBox="0 0 10 17" fill="none">
-												<path d="M8.84863 9.20312H6.5415V16.0938H3.46533V9.20312H0.942871V6.37305H3.46533V4.18896C3.46533 1.72803 4.94189 0.34375 7.1875 0.34375C8.26416 0.34375 9.40234 0.559082 9.40234 0.559082V2.98926H8.14111C6.91064 2.98926 6.5415 3.72754 6.5415 4.52734V6.37305H9.2793L8.84863 9.20312Z" fill="white" />
-											</svg>
-										</Link>
-										<Link href="https://twitter.com/" className=" text-white border border-end-0 border-light border-opacity-10 icon-shape icon-md">
-											<i className="bi bi-twitter-x" />
-										</Link>
-										<Link href="https://www.linkedin.com/" className=" text-white border border-light border-opacity-10 icon-shape icon-md">
-											<i className="bi bi-linkedin" />
-										</Link>
-										<Link href="https://www.behance.net/" className=" text-white border border-start-0 border-light border-opacity-10 icon-shape icon-md">
-											<i className="bi bi-behance" />
-										</Link>
-									</div>
+									<p className="text-white fw-medium mt-3 mb-6 opacity-50">By automating your landing pages, you may cut costs and simplify your workflow, giving you more time to focus on sales.</p>
 								</div>
 								<div className="col-lg-8">
 									<div className="row">
@@ -56,7 +40,7 @@ export default function Footer1() {
 								</div>
 							</div>
 							<div className="row text-center py-4 border-top border-white border-opacity-10">
-								<span className="text-white opacity-50" data-aos="fade-zoom-in" data-aos-delay={200}>Copyright © 2025 Infinia. All Rights Reserved</span>
+								<span className="text-white opacity-50" data-aos="fade-zoom-in" data-aos-delay={200}>Copyright © 2025. All Rights Reserved</span>
 							</div>
 						</div>
 					</div>

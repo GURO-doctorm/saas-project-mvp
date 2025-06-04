@@ -144,9 +144,9 @@ export default function PageAbout2() {
 									</div>
 									<h5 className="ds-5 mt-2">We make the   <br /> complex simple.</h5>
 									<div className="d-flex pt-3 align-items-center">
-										<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
+										<div className="bg-linear-2 icon-flip position-relative icon-shape icon-xxl rounded-3">
 											<div className="icon">
-												<img src="/assets/imgs/features-11/icon-1.svg" alt="infinia" />
+												<img src="/assets/imgs/features-11/root3.svg" alt="infinia" />
 											</div>
 										</div>
 										<div className="ps-5">
@@ -155,9 +155,9 @@ export default function PageAbout2() {
 										</div>
 									</div>
 									<div className="d-flex pt-3 align-items-center">
-										<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
+										<div className="bg-linear-2 icon-flip position-relative icon-shape icon-xxl rounded-3">
 											<div className="icon">
-												<img src="/assets/imgs/features-11/icon-2.svg" alt="infinia" />
+												<img src="/assets/imgs/features-11/root2.svg" alt="infinia" />
 											</div>
 										</div>
 										<div className="ps-5">
@@ -166,9 +166,9 @@ export default function PageAbout2() {
 										</div>
 									</div>
 									<div className="d-flex pt-3 align-items-center">
-										<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
+										<div className="bg-linear-2 icon-flip position-relative icon-shape icon-xxl rounded-3">
 											<div className="icon">
-												<img src="/assets/imgs/features-11/icon-3.svg" alt="infinia" />
+												<img src="/assets/imgs/features-11/root1.svg" alt="infinia" />
 											</div>
 										</div>
 										<div className="ps-5">
