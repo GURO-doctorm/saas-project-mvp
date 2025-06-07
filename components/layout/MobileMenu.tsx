@@ -30,32 +30,22 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
 							<div className="mobile-menu-wrap mobile-header-border">
 								<nav>
 									<ul className="mobile-menu font-heading ps-0">
-										<li className={`has-children ${isAccordion === 5 ? "active" : ""}`}>
 											<li className="nav-item">
 						                     <Link className="nav-link fw-bold d-flex align-items-center" href="/#">Sign Up</Link>
 					                        </li>
-										</li>
-										<li className={`has-children ${isAccordion === 1 ? "active" : ""}`}>
 											<li className="nav-item">
 						                      <Link className="nav-link fw-bold d-flex align-items-center" href="/page-pricing-01">Pricing</Link>
 					                        </li>
-										</li>
-										<li className={`has-children ${isAccordion === 2 ? "active" : ""}`}>
 											<li className="nav-item">
 						                     <Link className="nav-link fw-bold d-flex align-items-center" href="/page-integration">Integrations</Link>
 					                        </li>
-										</li>
-										<li className={`has-children ${isAccordion === 3 ? "active" : ""}`}>
 											<li className="nav-item">
 						                     <Link className="nav-link fw-bold d-flex align-items-center" href="/page-team-4">Our Team</Link>
 					                        </li>
-										</li>
-										<li className={`has-children ${isAccordion === 4 ? "active" : ""}`}>
 											<li className="nav-item">
 						                     <Link className="nav-link fw-bold d-flex align-items-center" href="/page-contact-3">Contact</Link>
 					                        </li>
-										</li>
-									</ul>
+								    </ul>
 								</nav>
 							</div>
 						</div>
